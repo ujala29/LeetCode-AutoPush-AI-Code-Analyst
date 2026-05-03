@@ -1,0 +1,896 @@
+{
+  "difficulty": {
+    "Easy": 23,
+    "Hard": 1,
+    "Medium": 19
+  },
+  "lastUpdated": "2026-05-03T19:14:33.071Z",
+  "solves": [
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "For each number 1 to n, check if all digits are rotatable and at least one digit changes after rotation.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Processing",
+        "Flag/Boolean Tracking"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n * log10(n)) — for each of the n numbers, we process each digit (log10(i) digits per number)",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "Iterate every number up to n, checking each digit for rotation validity and change requirement.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Decomposition",
+        "Flag-based Validation"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n * d) — where d is the number of digits (log10(n)), so effectively O(n log n) but since d ≤ 5 for n ≤ 10000, it's practically O(n).",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "For each number 1 to n, check if all digits are rotatable and at least one digit changes after rotation.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Decomposition",
+        "Flag/Boolean Tracking"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n log n) — outer loop runs n times, and for each number we extract O(log n) digits",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "For each number 1 to n, check if all digits are rotatable and at least one digit actually changes after rotation.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Decomposition",
+        "Enumeration"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n * d) — where n is the input number and d is the number of digits (log10(n)), so effectively O(n log n)",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "For each number 1 to n, check if all digits are rotatable and at least one digit changes after rotation.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Decomposition",
+        "Flag/Boolean Tracking"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n * log10(n)) — for each of the n numbers, we process each digit (log10(i) digits per number)",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "For each number 1 to n, check if all digits are rotatable and at least one digit changes after rotation.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Decomposition",
+        "Enumeration"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n * log10(n)) — for each of the n numbers, we inspect each digit (log10 digits per number)",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "For each number 1 to n, check if all digits are rotatable and at least one digit changes after rotation.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Decomposition",
+        "Flag/Boolean Tracking"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n * log10(n)) — for each of the n numbers, we process each digit (log10 digits per number)",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "For each number 1 to n, check if all digits are rotatable and at least one digit changes after rotation.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Decomposition",
+        "Flag/Boolean Tracking"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n log n) — outer loop runs n times, and for each number we extract O(log n) digits",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "Iterate every number up to n, checking each digit for rotation validity and change requirement.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Decomposition",
+        "Enumeration"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n * log10(n)) — for each of the n numbers, we inspect each of its digits (log10(n) digits per number)",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "Iterate every number up to n, checking each digit for rotation validity and change requirement.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Decomposition",
+        "Enumeration"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n * log10(n)) — for each of the n numbers, we inspect each of its digits (log10(n) digits per number)",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "Iterate every number up to n, checking each digit for rotation validity and change requirement.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Decomposition",
+        "Enumeration"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n * log10(n)) — for each of the n numbers, we inspect each digit (log10 digits per number)",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "Iterate every number up to n, checking each digit for rotation validity and change requirement.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Decomposition",
+        "Greedy Validation"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n * log10(n)) — for each of the n numbers, we inspect each digit (log10 digits per number)",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "Brute Force Linear Scan with Digit Validation",
+      "date": "2026-05-02",
+      "difficulty": "Medium",
+      "essence": "Iterate every number up to n, checking each digit for rotation validity and change requirement.",
+      "path": "2026/05/2026-05-02_rotated-digits",
+      "patterns": [
+        "Brute Force",
+        "Digit Processing",
+        "Linear Scan"
+      ],
+      "slug": "rotated-digits",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "time_complexity": "O(n * log10(n)) — for each of the n numbers, we process up to log10(i) digits",
+      "title": "Rotated Digits"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — Python's 'in' and C++'s find() use optimized substring search (KMP-like internally); n is the length of s.",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — Python's 'in' and C++'s find() use optimized substring search (KMP-like internally); n is the length of s.",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — where n is the length of s; modern string search (KMP-based internally) runs in O(n), though naive find is O(n²) in worst case",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — where n is the length of s; modern string search (KMP-based internally) runs in O(n), though naive find is O(n²) in worst case",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — where n is the length of s; modern string search (KMP-based internally) runs in O(n), though naive find is O(n²) in worst case",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — where n is the length of s; modern string search (KMP-based internally) runs in O(n), though naive find is O(n²) in worst case",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — where n is the length of s; modern string search (KMP-based internally) runs in O(n), though naive find is O(n²) in worst case",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "Rotation Detection"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — where n is the length of s; modern string search (KMP-based internally) runs in O(n), though naive find is O(n²) in worst case",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — Python's 'in' and C++'s find() use optimized substring search (KMP-like internally); n is the length of s.",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — where n is the length of s; modern string search (KMP-based internally) runs in O(n), though naive find is O(n²) in worst case",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — modern string search (like KMP internally in Python's 'in') runs in O(n); naive find is O(n²) worst case but typically O(n) in practice for this problem size.",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "Rotation Detection"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — where n is the length of s; modern string search (KMP-based internally) runs in O(n), though naive find is O(n²) in worst case",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — Python's 'in' and C++'s find() use optimized substring search (KMP-like internally); n is the length of s.",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling + Substring Search",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Concatenate s with itself and check if goal is a substring, covering all rotations in one shot.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Doubling",
+        "Substring Search",
+        "String Matching"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — where n is the length of s; modern string search (KMP-based internally) runs in O(n), though naive find is O(n²) in worst case",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling / Concatenation Trick",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Check if goal is a substring of s+s to detect any rotation in O(n) time.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Concatenation Trick",
+        "Substring Search",
+        "Rotation Detection"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — length check is O(1), string concatenation is O(n), and Python's 'in' operator uses optimized substring search (roughly O(n))",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling / Concatenation Trick",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Check if goal is a substring of s+s to detect all possible rotations at once",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Concatenation Trick",
+        "Substring Search",
+        "Rotation Detection"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — Python's 'in' operator uses optimized substring search (similar to KMP/Boyer-Moore) on a string of length 2n",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling / Concatenation Trick",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Check if goal is a substring of s+s to detect any rotation in O(n) time.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Concatenation Trick",
+        "Substring Search",
+        "Rotation Detection"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — modern string search (like KMP internally) runs in O(n); naive 'in' operator in Python is O(n²) worst case but typically O(n) in practice",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling / Concatenation Trick",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Check if goal is a substring of s+s to detect all possible rotations at once",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Concatenation Trick",
+        "Substring Search",
+        "Rotation Detection"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — Python's 'in' operator uses optimized substring search (similar to KMP/Boyer-Moore) on a string of length 2n",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling / Concatenation Trick",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Check if goal is a substring of s+s to detect all possible rotations at once",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Concatenation Trick",
+        "Substring Search",
+        "Rotation Detection"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — Python's 'in' operator uses optimized substring search (similar to KMP/Boyer-Moore) on a string of length 2n",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling / Concatenation Trick",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Check if goal is a substring of s+s to detect all possible rotations at once",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Concatenation Trick",
+        "Substring Search",
+        "Rotation Detection"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — Python's 'in' operator uses optimized substring search (similar to KMP/Boyer-Moore) on a string of length 2n",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling / Concatenation Trick",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Check if goal is a substring of s+s to detect any rotation in O(n) time.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Concatenation Trick",
+        "Substring Search",
+        "Rotation Detection"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — modern string search (like KMP internally) runs in O(n); naive 'in' operator in Python is O(n²) worst case but typically O(n) in practice",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling / Concatenation Trick",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Check if goal is a substring of s+s to detect any rotation in O(n) time.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Concatenation Trick",
+        "Substring Search",
+        "Rotation Detection"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — modern string search (like KMP internally) runs in O(n); naive 'in' operator in Python is O(n²) worst case but typically O(n) in practice",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "String Doubling / Concatenation Trick",
+      "date": "2026-05-03",
+      "difficulty": "Easy",
+      "essence": "Check if goal is a substring of s+s to detect all possible rotations at once.",
+      "path": "2026/05/2026-05-03_rotate-string",
+      "patterns": [
+        "String Concatenation Trick",
+        "Substring Search",
+        "Rotation Detection"
+      ],
+      "slug": "rotate-string",
+      "tags": [
+        "String",
+        "String Matching"
+      ],
+      "time_complexity": "O(n) — Python's 'in' operator uses optimized substring search (similar to KMP/Boyer-Moore) on a string of length 2n, where n = len(s).",
+      "title": "Rotate String"
+    },
+    {
+      "approach": "Brute Force — Merge and Sort",
+      "date": "2026-05-03",
+      "difficulty": "Hard",
+      "essence": "Merge both sorted arrays, sort the result, then pick the middle element(s) as the median.",
+      "path": "2026/05/2026-05-03_median-of-two-sorted-arrays",
+      "patterns": [
+        "merge arrays",
+        "sorting",
+        "median finding"
+      ],
+      "slug": "median-of-two-sorted-arrays",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Divide and Conquer"
+      ],
+      "time_complexity": "O((m+n) log(m+n)) — dominated by sorting the merged array of size m+n; copying is O(m+n)",
+      "title": "Median of Two Sorted Arrays"
+    },
+    {
+      "approach": "Hash Table / Boolean Tracking with Bit Marking",
+      "date": "2026-05-03",
+      "difficulty": "Medium",
+      "essence": "Use three 9x9 boolean arrays to track digit occurrences in rows, columns, and 3x3 boxes simultaneously in a single pass.",
+      "path": "2026/05/2026-05-03_valid-sudoku",
+      "patterns": [
+        "Hash Table",
+        "Matrix Traversal",
+        "Bit/Boolean Marking"
+      ],
+      "slug": "valid-sudoku",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Matrix"
+      ],
+      "time_complexity": "O(1) — The board is always 9x9 = 81 cells, so the iteration is constant regardless of input.",
+      "title": "Valid Sudoku"
+    },
+    {
+      "approach": "Mathematical Index Simulation",
+      "date": "2026-05-03",
+      "difficulty": "Medium",
+      "essence": "Directly compute zigzag output by iterating row by row and calculating diagonal character positions mathematically.",
+      "path": "2026/05/2026-05-03_zigzag-conversion",
+      "patterns": [
+        "Math/Index Calculation",
+        "Row-by-row traversal",
+        "Cycle detection"
+      ],
+      "slug": "zigzag-conversion",
+      "tags": [
+        "String"
+      ],
+      "time_complexity": "O(n) — each character in the string is visited exactly once across all row iterations.",
+      "title": "Zigzag Conversion"
+    },
+    {
+      "approach": "Backtracking / Recursive Tree Generation",
+      "date": "2026-05-03",
+      "difficulty": "Medium",
+      "essence": "Recursively build valid parentheses by tracking remaining open/close counts and only placing brackets when they maintain validity.",
+      "path": "2026/05/2026-05-03_generate-parentheses",
+      "patterns": [
+        "Backtracking",
+        "Recursion / DFS",
+        "Constraint-based pruning",
+        "String building"
+      ],
+      "slug": "generate-parentheses",
+      "tags": [
+        "String",
+        "Dynamic Programming",
+        "Backtracking"
+      ],
+      "time_complexity": "O(4^n / sqrt(n)) — the number of valid combinations is the nth Catalan number C(n) = (2n choose n)/(n+1), and each string has length 2n, so total work is O(n * Catalan(n)) ≈ O(4^n / sqrt(n)).",
+      "title": "Generate Parentheses"
+    },
+    {
+      "approach": "Fast Exponentiation (Binary Exponentiation / Recursive Divide and Conquer)",
+      "date": "2026-05-03",
+      "difficulty": "Medium",
+      "essence": "Halve the exponent recursively to compute x^n in O(log n) by squaring intermediate results.",
+      "path": "2026/05/2026-05-03_powx-n",
+      "patterns": [
+        "Divide and Conquer",
+        "Recursion",
+        "Binary Exponentiation",
+        "Math"
+      ],
+      "slug": "powx-n",
+      "tags": [
+        "Math",
+        "Recursion"
+      ],
+      "time_complexity": "O(log n) — each recursive call halves the exponent, resulting in log2(n) levels of recursion",
+      "title": "Pow(x, n)"
+    },
+    {
+      "approach": "Fast Exponentiation (Binary Exponentiation / Recursive Divide and Conquer)",
+      "date": "2026-05-03",
+      "difficulty": "Medium",
+      "essence": "Halve the exponent recursively to compute power in O(log n) by squaring intermediate results.",
+      "path": "2026/05/2026-05-03_powx-n",
+      "patterns": [
+        "Divide and Conquer",
+        "Recursion",
+        "Binary Exponentiation",
+        "Math"
+      ],
+      "slug": "powx-n",
+      "tags": [
+        "Math",
+        "Recursion"
+      ],
+      "time_complexity": "O(log n) — each recursive call halves the exponent, resulting in log2(n) levels of recursion",
+      "title": "Pow(x, n)"
+    },
+    {
+      "date": "2026-05-03",
+      "slug": "minimum-path-sum",
+      "title": "Minimum Path Sum",
+      "difficulty": "Medium",
+      "patterns": [
+        "Dynamic Programming",
+        "Space Optimization / Rolling Array",
+        "Matrix DP",
+        "Greedy Path Selection"
+      ],
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "essence": "Use a single 1D DP array to track minimum path sums row by row, reusing space by updating in-place.",
+      "approach": "Space-Optimized Dynamic Programming (1D Rolling Array)",
+      "time_complexity": "O(m*n) — every cell in the grid is visited exactly once",
+      "path": "2026/05/2026-05-03_minimum-path-sum"
+    }
+  ],
+  "streak": {
+    "best": 2,
+    "current": 2,
+    "last_date": "2026-05-03"
+  },
+  "topics": {
+    "array": 3,
+    "backtracking": 2,
+    "binary-exponentiation": 2,
+    "binary-search": 1,
+    "bit-boolean-marking": 1,
+    "brute-force": 13,
+    "constraint-based-pruning": 1,
+    "cycle-detection": 1,
+    "digit-decomposition": 11,
+    "digit-processing": 2,
+    "divide-and-conquer": 3,
+    "dynamic-programming": 16,
+    "enumeration": 5,
+    "flag-based-validation": 1,
+    "flag-boolean-tracking": 5,
+    "greedy-validation": 1,
+    "hash-table": 2,
+    "linear-scan": 1,
+    "math": 17,
+    "math-index-calculation": 1,
+    "matrix": 2,
+    "matrix-traversal": 1,
+    "median-finding": 1,
+    "merge-arrays": 1,
+    "recursion": 4,
+    "recursion---dfs": 1,
+    "rotation-detection": 11,
+    "row-by-row-traversal": 1,
+    "sorting": 1,
+    "string": 25,
+    "string-building": 1,
+    "string-concatenation-trick": 9,
+    "string-doubling": 14,
+    "string-matching": 35,
+    "substring-search": 23,
+    "space-optimization---rolling-array": 1,
+    "matrix-dp": 1,
+    "greedy-path-selection": 1
+  },
+  "weakTopics": [
+    "graphs",
+    "bfs",
+    "dfs",
+    "trees",
+    "binary-search",
+    "two-pointers",
+    "sliding-window",
+    "backtracking",
+    "greedy",
+    "heap",
+    "trie",
+    "segment-tree",
+    "monotonic-stack",
+    "union-find",
+    "bit-manipulation"
+  ]
+}
