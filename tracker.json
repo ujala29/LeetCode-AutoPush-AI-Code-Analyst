@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 23,
+    "Easy": 24,
     "Hard": 1,
     "Medium": 19
   },
-  "lastUpdated": "2026-05-03T19:14:33.071Z",
+  "lastUpdated": "2026-05-03T19:17:08.015Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -810,25 +810,43 @@
       "title": "Pow(x, n)"
     },
     {
+      "approach": "Space-Optimized Dynamic Programming (1D Rolling Array)",
       "date": "2026-05-03",
-      "slug": "minimum-path-sum",
-      "title": "Minimum Path Sum",
       "difficulty": "Medium",
+      "essence": "Use a single 1D DP array to track minimum path sums row by row, reusing space by updating in-place.",
+      "path": "2026/05/2026-05-03_minimum-path-sum",
       "patterns": [
         "Dynamic Programming",
         "Space Optimization / Rolling Array",
         "Matrix DP",
         "Greedy Path Selection"
       ],
+      "slug": "minimum-path-sum",
       "tags": [
         "Array",
         "Dynamic Programming",
         "Matrix"
       ],
-      "essence": "Use a single 1D DP array to track minimum path sums row by row, reusing space by updating in-place.",
-      "approach": "Space-Optimized Dynamic Programming (1D Rolling Array)",
       "time_complexity": "O(m*n) — every cell in the grid is visited exactly once",
-      "path": "2026/05/2026-05-03_minimum-path-sum"
+      "title": "Minimum Path Sum"
+    },
+    {
+      "date": "2026-05-03",
+      "slug": "palindrome-number",
+      "title": "Palindrome Number",
+      "difficulty": "Easy",
+      "patterns": [
+        "Math / Digit Manipulation",
+        "Two Halves Comparison",
+        "Early Termination / Guard Clauses"
+      ],
+      "tags": [
+        "Math"
+      ],
+      "essence": "Reverse only the second half of the number and compare with the first half to avoid overflow and extra space.",
+      "approach": "Half Reversal / Mathematical Digit Comparison",
+      "time_complexity": "O(log10(n)) — we only iterate through half the digits of the number",
+      "path": "2026/05/2026-05-03_palindrome-number"
     }
   ],
   "streak": {
@@ -852,12 +870,14 @@
     "enumeration": 5,
     "flag-based-validation": 1,
     "flag-boolean-tracking": 5,
+    "greedy-path-selection": 1,
     "greedy-validation": 1,
     "hash-table": 2,
     "linear-scan": 1,
-    "math": 17,
+    "math": 18,
     "math-index-calculation": 1,
     "matrix": 2,
+    "matrix-dp": 1,
     "matrix-traversal": 1,
     "median-finding": 1,
     "merge-arrays": 1,
@@ -866,15 +886,16 @@
     "rotation-detection": 11,
     "row-by-row-traversal": 1,
     "sorting": 1,
+    "space-optimization---rolling-array": 1,
     "string": 25,
     "string-building": 1,
     "string-concatenation-trick": 9,
     "string-doubling": 14,
     "string-matching": 35,
     "substring-search": 23,
-    "space-optimization---rolling-array": 1,
-    "matrix-dp": 1,
-    "greedy-path-selection": 1
+    "math---digit-manipulation": 1,
+    "two-halves-comparison": 1,
+    "early-termination---guard-clauses": 1
   },
   "weakTopics": [
     "graphs",
