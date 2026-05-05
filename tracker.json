@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 24,
     "Hard": 1,
-    "Medium": 19
+    "Medium": 20
   },
-  "lastUpdated": "2026-05-03T19:17:08.015Z",
+  "lastUpdated": "2026-05-05T10:52:39.625Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -831,28 +831,47 @@
       "title": "Minimum Path Sum"
     },
     {
+      "approach": "Half Reversal / Mathematical Digit Comparison",
       "date": "2026-05-03",
-      "slug": "palindrome-number",
-      "title": "Palindrome Number",
       "difficulty": "Easy",
+      "essence": "Reverse only the second half of the number and compare with the first half to avoid overflow and extra space.",
+      "path": "2026/05/2026-05-03_palindrome-number",
       "patterns": [
         "Math / Digit Manipulation",
         "Two Halves Comparison",
         "Early Termination / Guard Clauses"
       ],
+      "slug": "palindrome-number",
       "tags": [
         "Math"
       ],
-      "essence": "Reverse only the second half of the number and compare with the first half to avoid overflow and extra space.",
-      "approach": "Half Reversal / Mathematical Digit Comparison",
       "time_complexity": "O(log10(n)) — we only iterate through half the digits of the number",
-      "path": "2026/05/2026-05-03_palindrome-number"
+      "title": "Palindrome Number"
+    },
+    {
+      "date": "2026-05-05",
+      "slug": "rotate-list",
+      "title": "Rotate List",
+      "difficulty": "Medium",
+      "patterns": [
+        "linked list manipulation",
+        "two pointers",
+        "circular list"
+      ],
+      "tags": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "essence": "Connect tail to head forming a circle, then break at the new tail position after (len - k) steps.",
+      "approach": "Circular Linked List with Pointer Manipulation",
+      "time_complexity": "O(n) — single pass to find length, then at most one more pass to find the new tail",
+      "path": "2026/05/2026-05-05_rotate-list"
     }
   ],
   "streak": {
     "best": 2,
-    "current": 2,
-    "last_date": "2026-05-03"
+    "current": 1,
+    "last_date": "2026-05-05"
   },
   "topics": {
     "array": 3,
@@ -867,6 +886,7 @@
     "digit-processing": 2,
     "divide-and-conquer": 3,
     "dynamic-programming": 16,
+    "early-termination---guard-clauses": 1,
     "enumeration": 5,
     "flag-based-validation": 1,
     "flag-boolean-tracking": 5,
@@ -875,6 +895,7 @@
     "hash-table": 2,
     "linear-scan": 1,
     "math": 18,
+    "math---digit-manipulation": 1,
     "math-index-calculation": 1,
     "matrix": 2,
     "matrix-dp": 1,
@@ -893,9 +914,11 @@
     "string-doubling": 14,
     "string-matching": 35,
     "substring-search": 23,
-    "math---digit-manipulation": 1,
     "two-halves-comparison": 1,
-    "early-termination---guard-clauses": 1
+    "linked-list": 1,
+    "two-pointers": 2,
+    "linked-list-manipulation": 1,
+    "circular-list": 1
   },
   "weakTopics": [
     "graphs",
