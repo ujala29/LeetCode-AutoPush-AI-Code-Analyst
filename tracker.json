@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 24,
     "Hard": 1,
-    "Medium": 20
+    "Medium": 21
   },
-  "lastUpdated": "2026-05-05T10:52:39.625Z",
+  "lastUpdated": "2026-05-05T10:58:52.939Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -849,23 +849,43 @@
       "title": "Palindrome Number"
     },
     {
+      "approach": "Circular Linked List with Pointer Manipulation",
       "date": "2026-05-05",
-      "slug": "rotate-list",
-      "title": "Rotate List",
       "difficulty": "Medium",
+      "essence": "Connect tail to head forming a circle, then break at the new tail position after (len - k) steps.",
+      "path": "2026/05/2026-05-05_rotate-list",
       "patterns": [
         "linked list manipulation",
         "two pointers",
         "circular list"
       ],
+      "slug": "rotate-list",
       "tags": [
         "Linked List",
         "Two Pointers"
       ],
-      "essence": "Connect tail to head forming a circle, then break at the new tail position after (len - k) steps.",
-      "approach": "Circular Linked List with Pointer Manipulation",
       "time_complexity": "O(n) — single pass to find length, then at most one more pass to find the new tail",
-      "path": "2026/05/2026-05-05_rotate-list"
+      "title": "Rotate List"
+    },
+    {
+      "date": "2026-05-05",
+      "slug": "rotate-image",
+      "title": "Rotate Image",
+      "difficulty": "Medium",
+      "patterns": [
+        "Matrix Manipulation",
+        "In-Place Algorithm",
+        "Transpose and Reflect"
+      ],
+      "tags": [
+        "Array",
+        "Math",
+        "Matrix"
+      ],
+      "essence": "Rotate matrix 90° clockwise by transposing across main diagonal then reversing each row.",
+      "approach": "Transpose + Reverse (In-Place Matrix Rotation)",
+      "time_complexity": "O(n²) — every element is visited once during transpose (n²/2 swaps) and once during row reversal (n²/2 swaps), totaling O(n²).",
+      "path": "2026/05/2026-05-05_rotate-image"
     }
   ],
   "streak": {
@@ -874,12 +894,13 @@
     "last_date": "2026-05-05"
   },
   "topics": {
-    "array": 3,
+    "array": 4,
     "backtracking": 2,
     "binary-exponentiation": 2,
     "binary-search": 1,
     "bit-boolean-marking": 1,
     "brute-force": 13,
+    "circular-list": 1,
     "constraint-based-pruning": 1,
     "cycle-detection": 1,
     "digit-decomposition": 11,
@@ -894,10 +915,12 @@
     "greedy-validation": 1,
     "hash-table": 2,
     "linear-scan": 1,
-    "math": 18,
+    "linked-list": 1,
+    "linked-list-manipulation": 1,
+    "math": 19,
     "math---digit-manipulation": 1,
     "math-index-calculation": 1,
-    "matrix": 2,
+    "matrix": 3,
     "matrix-dp": 1,
     "matrix-traversal": 1,
     "median-finding": 1,
@@ -915,10 +938,10 @@
     "string-matching": 35,
     "substring-search": 23,
     "two-halves-comparison": 1,
-    "linked-list": 1,
     "two-pointers": 2,
-    "linked-list-manipulation": 1,
-    "circular-list": 1
+    "matrix-manipulation": 1,
+    "in-place-algorithm": 1,
+    "transpose-and-reflect": 1
   },
   "weakTopics": [
     "graphs",
