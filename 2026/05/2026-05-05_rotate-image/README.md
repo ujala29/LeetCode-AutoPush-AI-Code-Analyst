@@ -19,7 +19,7 @@ Transpose + Reverse (In-Place Matrix Rotation)
 ## Solution Logic
 
 1. Step 1: Transpose the matrix — swap matrix[i][j] with matrix[j][i] for all j > i, converting rows into columns.
-2. Step 2: Reverse each row — mirror each row horizontally using std::reverse, completing the 90° clockwise rotation.
+2. Step 2: Reverse each row — mirror every row horizontally using std::reverse, completing the 90° clockwise rotation.
 3. Step 3: Result is the original matrix rotated 90° clockwise in-place with no extra space.
 
 ## Complexity Analysis
@@ -27,25 +27,25 @@ Transpose + Reverse (In-Place Matrix Rotation)
 | Complexity | Analysis |
 |------------|----------|
 | **Time:** | O(n²) — every element is visited once during transpose (n²/2 swaps) and once during row reversal (n²/2 swaps), totaling O(n²). |
-| **Space:** | O(1) — all operations are done in-place using only a constant amount of extra memory for swaps. |
+| **Space:** | O(1) — all operations are done in-place using only a constant amount of extra memory for swap temporaries. |
 
 ## Edge Cases Handled
 
-- 1x1 matrix — no swaps needed, trivially correct
-- 2x2 matrix — minimal case where transpose and reverse still work correctly
-- Even vs odd n — algorithm works uniformly for both
+- 1x1 matrix — transpose and reverse are no-ops, matrix unchanged correctly
+- 2x2 matrix — minimal case where the two-step approach still works correctly
+- Even vs odd n — algorithm works uniformly for both even and odd sized matrices
 
 ## What I Learned
 
-A 90° clockwise rotation can always be decomposed into two simpler operations: a transpose (flip over main diagonal) followed by a horizontal mirror (reverse each row). This avoids the complexity of a 4-way cyclic swap and is easy to remember and implement correctly.
+A 90° clockwise rotation can always be decomposed into two simpler in-place operations: transpose (flip over main diagonal) then horizontal flip (reverse rows). This avoids the complexity of a direct 4-way cyclic swap and is easy to remember and implement correctly.
 
 ## Similar Problems
 
-- Transpose Matrix (LeetCode 867)
-- Spiral Matrix (LeetCode 54)
-- Spiral Matrix II (LeetCode 59)
-- Flip an Image (LeetCode 832)
-- Rotate Array (LeetCode 189)
+- Transpose Matrix
+- Spiral Matrix
+- Spiral Matrix II
+- Flip an Image
+- Rotate Array
 
 ## Solution Code
 
