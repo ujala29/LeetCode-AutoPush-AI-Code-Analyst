@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 24,
     "Hard": 1,
-    "Medium": 23
+    "Medium": 24
   },
-  "lastUpdated": "2026-05-06T15:27:23.160Z",
+  "lastUpdated": "2026-05-07T15:31:35.481Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -908,29 +908,49 @@
       "title": "Rotate Image"
     },
     {
+      "approach": "Unknown",
       "date": "2026-05-06",
-      "slug": "rotating-the-box",
-      "title": "Rotating the Box",
       "difficulty": "Medium",
+      "essence": "Solution analysis failed",
+      "path": "2026/05/2026-05-06_rotating-the-box",
       "patterns": [],
+      "slug": "rotating-the-box",
       "tags": [
         "Array",
         "Two Pointers",
         "Matrix"
       ],
-      "essence": "Solution analysis failed",
-      "approach": "Unknown",
       "time_complexity": "Unknown",
-      "path": "2026/05/2026-05-06_rotating-the-box"
+      "title": "Rotating the Box"
+    },
+    {
+      "date": "2026-05-07",
+      "slug": "jump-game-ix",
+      "title": "Jump Game IX",
+      "difficulty": "Medium",
+      "patterns": [
+        "Dynamic Programming",
+        "Prefix/Suffix Arrays",
+        "Greedy",
+        "Monotonic reasoning"
+      ],
+      "tags": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "essence": "Use prefix max and suffix min arrays to determine reachable maximum values via valid jumps in a single right-to-left pass.",
+      "approach": "Prefix Maximum + Suffix Minimum with Right-to-Left DP",
+      "time_complexity": "O(n) — single pass to build prefix max array, single right-to-left pass for the answer",
+      "path": "2026/05/2026-05-07_jump-game-ix"
     }
   ],
   "streak": {
-    "best": 2,
-    "current": 2,
-    "last_date": "2026-05-06"
+    "best": 3,
+    "current": 3,
+    "last_date": "2026-05-07"
   },
   "topics": {
-    "array": 6,
+    "array": 7,
     "backtracking": 2,
     "binary-exponentiation": 2,
     "binary-search": 1,
@@ -942,7 +962,7 @@
     "digit-decomposition": 11,
     "digit-processing": 2,
     "divide-and-conquer": 3,
-    "dynamic-programming": 16,
+    "dynamic-programming": 18,
     "early-termination---guard-clauses": 1,
     "enumeration": 5,
     "flag-based-validation": 1,
@@ -978,7 +998,10 @@
     "substring-search": 23,
     "transpose-and-reflect": 2,
     "two-halves-comparison": 1,
-    "two-pointers": 3
+    "two-pointers": 3,
+    "prefix-suffix-arrays": 1,
+    "greedy": 1,
+    "monotonic-reasoning": 1
   },
   "weakTopics": [
     "graphs",
