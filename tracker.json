@@ -4,7 +4,7 @@
     "Hard": 1,
     "Medium": 24
   },
-  "lastUpdated": "2026-05-07T15:31:35.481Z",
+  "lastUpdated": "2026-05-07T15:31:39.357Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -929,10 +929,11 @@
       "title": "Jump Game IX",
       "difficulty": "Medium",
       "patterns": [
-        "Dynamic Programming",
-        "Prefix/Suffix Arrays",
-        "Greedy",
-        "Monotonic reasoning"
+        "prefix maximum",
+        "suffix minimum",
+        "greedy",
+        "dynamic programming",
+        "monotonic traversal"
       ],
       "tags": [
         "Array",
@@ -940,7 +941,7 @@
       ],
       "essence": "Use prefix max and suffix min arrays to determine reachable maximum values via valid jumps in a single right-to-left pass.",
       "approach": "Prefix Maximum + Suffix Minimum with Right-to-Left DP",
-      "time_complexity": "O(n) — single pass to build prefix max array, single right-to-left pass for the answer",
+      "time_complexity": "O(n) — single pass to build prefix max array and single right-to-left pass for the answer",
       "path": "2026/05/2026-05-07_jump-game-ix"
     }
   ],
@@ -999,9 +1000,10 @@
     "transpose-and-reflect": 2,
     "two-halves-comparison": 1,
     "two-pointers": 3,
-    "prefix-suffix-arrays": 1,
+    "prefix-maximum": 1,
+    "suffix-minimum": 1,
     "greedy": 1,
-    "monotonic-reasoning": 1
+    "monotonic-traversal": 1
   },
   "weakTopics": [
     "graphs",
