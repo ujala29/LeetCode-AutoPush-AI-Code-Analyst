@@ -18,27 +18,27 @@ Prefix Maximum + Suffix Minimum with Right-to-Left DP
 
 ## Solution Logic
 
-1. Step 1: Build a prefix maximum array where preMax[i] = max(nums[0..i]), representing the best value reachable by jumping backwards (since jumping left requires nums[j] > nums[i], the max prefix value is always reachable going left).
-2. Step 2: Traverse right to left while maintaining a suffix minimum (sufMin). At each index i, if preMax[i] > sufMin, it means we can jump forward to some index where the value is smaller, and from there we already computed the best answer (ans[i+1] propagates the best reachable value).
-3. Step 3: Otherwise, the best reachable value from i is preMax[i] itself (we can only go left to reach higher values, and the prefix max captures that). Update sufMin as we move left.
+1. Step 1: Build a prefix maximum array where preMax[i] = max(nums[0..i]), representing the best value reachable by jumping backwards (since backward jumps require nums[j] > nums[i], the max prefix value is always reachable going left).
+2. Step 2: Traverse right to left while maintaining a running suffix minimum (sufMin). At each index i, if preMax[i] > sufMin, it means we can jump forward to some index where the value is smaller, and from there we already know the best answer (ans[i+1] propagates the best reachable value forward).
+3. Step 3: If preMax[i] <= sufMin, no beneficial forward jump exists, so the best reachable value is preMax[i] (the best we can get by jumping left or staying). Update sufMin with nums[i] after processing.
 
 ## Complexity Analysis
 
 | Complexity | Analysis |
 |------------|----------|
-| **Time:** | O(n) — single pass to build prefix max array, single right-to-left pass for the answer |
-| **Space:** | O(n) — prefix max array of size n plus the output array |
+| **Time:** | O(n) — single pass to build prefix max array and single right-to-left pass for the answer |
+| **Space:** | O(n) — prefix max array and answer array both of size n |
 
 ## Edge Cases Handled
 
-- All equal elements (no valid jumps possible, each index returns its own value)
-- Single element array
-- Strictly increasing array (can only jump backwards)
-- Strictly decreasing array (can only jump forwards)
+- All equal elements (no valid jumps possible, each element returns itself)
+- Single element array (trivially returns the element)
+- Strictly increasing array (can only jump backwards, prefix max handles it)
+- Strictly decreasing array (can only jump forwards, suffix min propagation handles it)
 
 ## What I Learned
 
-The key insight is that jumping left always leads to a larger value (by rule), so the prefix maximum captures all reachable values going left. Jumping right leads to smaller values, but from those positions you can again jump left to reach higher values — this chain is captured by propagating ans[i+1] when a forward jump is beneficial (i.e., when sufMin < preMax[i] means there's a smaller element ahead that opens up a better leftward jump later).
+The key insight is that backward jumps (to smaller indices) always allow reaching the prefix maximum up to that point, while forward jumps (to larger indices) are only beneficial when a smaller value ahead leads to a better overall reachable maximum — this asymmetry lets you solve the problem greedily in one right-to-left sweep.
 
 ## Similar Problems
 
