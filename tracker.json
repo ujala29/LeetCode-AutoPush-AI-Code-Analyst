@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 24,
     "Hard": 1,
-    "Medium": 24
+    "Medium": 25
   },
-  "lastUpdated": "2026-05-07T15:31:39.357Z",
+  "lastUpdated": "2026-05-08T16:16:40.444Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -924,10 +924,11 @@
       "title": "Rotating the Box"
     },
     {
+      "approach": "Prefix Maximum + Suffix Minimum with Right-to-Left DP",
       "date": "2026-05-07",
-      "slug": "jump-game-ix",
-      "title": "Jump Game IX",
       "difficulty": "Medium",
+      "essence": "Use prefix max and suffix min arrays to determine reachable maximum values via valid jumps in a single right-to-left pass.",
+      "path": "2026/05/2026-05-07_jump-game-ix",
       "patterns": [
         "prefix maximum",
         "suffix minimum",
@@ -935,23 +936,46 @@
         "dynamic programming",
         "monotonic traversal"
       ],
+      "slug": "jump-game-ix",
       "tags": [
         "Array",
         "Dynamic Programming"
       ],
-      "essence": "Use prefix max and suffix min arrays to determine reachable maximum values via valid jumps in a single right-to-left pass.",
-      "approach": "Prefix Maximum + Suffix Minimum with Right-to-Left DP",
       "time_complexity": "O(n) — single pass to build prefix max array and single right-to-left pass for the answer",
-      "path": "2026/05/2026-05-07_jump-game-ix"
+      "title": "Jump Game IX"
+    },
+    {
+      "date": "2026-05-08",
+      "slug": "minimum-jumps-to-reach-end-via-prime-teleportation",
+      "title": "Minimum Jumps to Reach End via Prime Teleportation",
+      "difficulty": "Medium",
+      "patterns": [
+        "Breadth-First Search",
+        "Graph modeling",
+        "Sieve of Eratosthenes (SPF variant)",
+        "Hash Table grouping",
+        "Virtual node / channel collapsing trick"
+      ],
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Breadth-First Search",
+        "Number Theory"
+      ],
+      "essence": "Use BFS on index graph where edges include adjacent steps and prime-grouped teleportations, marking used prime channels to avoid redundant traversal.",
+      "approach": "BFS with Prime Teleportation via Smallest Prime Factor Sieve",
+      "time_complexity": "O(MAXV + n * log(maxVal)) — SPF sieve is O(MAXV log log MAXV), factorization per element is O(log maxVal), BFS visits each index and each prime channel at most once so total teleportation work is O(n).",
+      "path": "2026/05/2026-05-08_minimum-jumps-to-reach-end-via-prime-teleportation"
     }
   ],
   "streak": {
-    "best": 3,
-    "current": 3,
-    "last_date": "2026-05-07"
+    "best": 4,
+    "current": 4,
+    "last_date": "2026-05-08"
   },
   "topics": {
-    "array": 7,
+    "array": 8,
     "backtracking": 2,
     "binary-exponentiation": 2,
     "binary-search": 1,
@@ -968,15 +992,16 @@
     "enumeration": 5,
     "flag-based-validation": 1,
     "flag-boolean-tracking": 5,
+    "greedy": 1,
     "greedy-path-selection": 1,
     "greedy-validation": 1,
-    "hash-table": 2,
+    "hash-table": 3,
     "in-place-algorithm": 1,
     "in-place-transformation": 1,
     "linear-scan": 1,
     "linked-list": 1,
     "linked-list-manipulation": 1,
-    "math": 20,
+    "math": 21,
     "math---digit-manipulation": 1,
     "math-index-calculation": 1,
     "matrix": 5,
@@ -985,6 +1010,8 @@
     "matrix-traversal": 1,
     "median-finding": 1,
     "merge-arrays": 1,
+    "monotonic-traversal": 1,
+    "prefix-maximum": 1,
     "recursion": 4,
     "recursion---dfs": 1,
     "rotation-detection": 11,
@@ -997,13 +1024,16 @@
     "string-doubling": 14,
     "string-matching": 35,
     "substring-search": 23,
+    "suffix-minimum": 1,
     "transpose-and-reflect": 2,
     "two-halves-comparison": 1,
     "two-pointers": 3,
-    "prefix-maximum": 1,
-    "suffix-minimum": 1,
-    "greedy": 1,
-    "monotonic-traversal": 1
+    "breadth-first-search": 2,
+    "number-theory": 1,
+    "graph-modeling": 1,
+    "sieve-of-eratosthenes--spf-variant-": 1,
+    "hash-table-grouping": 1,
+    "virtual-node---channel-collapsing-trick": 1
   },
   "weakTopics": [
     "graphs",
