@@ -12,32 +12,37 @@ Write a program to solve a Sudoku puzzle by filling the empty cells. A sudoku so
 
 ## Approach
 
-Unknown
+Backtracking
 
-> Analysis unavailable
+> Solve Sudoku puzzle using backtracking algorithm to fill empty cells
 
 ## Solution Logic
 
-1. Could not analyze solution
+1. Iterate through the board to find empty cells
+2. Try numbers 1-9 in each empty cell and check validity
+3. Recursively solve the puzzle and backtrack if a solution is not found
 
 ## Complexity Analysis
 
 | Complexity | Analysis |
 |------------|----------|
-| **Time:** | Unknown |
-| **Space:** | Unknown |
+| **Time:** | O(9^(n*n)) — where n is the size of the board, representing the maximum number of possible solutions |
+| **Space:** | O(n*n) — for the recursive call stack and the board itself |
 
 ## Edge Cases Handled
 
-None specified
+- Empty board
+- Invalid input
+- No solution exists
 
 ## What I Learned
 
-AI analysis failed — solution still committed to GitHub
+The importance of using backtracking to solve complex problems with multiple possible solutions
 
 ## Similar Problems
 
-None suggested
+- N-Queens
+- Permutations
 
 ## Solution Code
 
