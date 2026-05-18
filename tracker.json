@@ -1,10 +1,10 @@
 {
   "difficulty": {
     "Easy": 25,
-    "Hard": 3,
+    "Hard": 4,
     "Medium": 26
   },
-  "lastUpdated": "2026-05-18T17:23:54.503Z",
+  "lastUpdated": "2026-05-18T17:26:44.073Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -1014,21 +1014,40 @@
       "title": "String to Integer (atoi)"
     },
     {
+      "approach": "Unknown",
       "date": "2026-05-18",
-      "slug": "sudoku-solver",
-      "title": "Sudoku Solver",
       "difficulty": "Hard",
+      "essence": "Analysis unavailable",
+      "path": "2026/05/2026-05-18_sudoku-solver",
       "patterns": [],
+      "slug": "sudoku-solver",
       "tags": [
         "Array",
         "Hash Table",
         "Backtracking",
         "Matrix"
       ],
-      "essence": "Analysis unavailable",
-      "approach": "Unknown",
       "time_complexity": "Unknown",
-      "path": "2026/05/2026-05-18_sudoku-solver"
+      "title": "Sudoku Solver"
+    },
+    {
+      "date": "2026-05-18",
+      "slug": "jump-game-iv",
+      "title": "Jump Game IV",
+      "difficulty": "Hard",
+      "patterns": [
+        "Breadth-First Search",
+        "Hash Table"
+      ],
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Breadth-First Search"
+      ],
+      "essence": "Use BFS to explore all possible jumps and track visited indices to find the minimum steps to reach the last index",
+      "approach": "Breadth-First Search (BFS) with Hash Table",
+      "time_complexity": "O(n) — where n is the number of elements in the array, because each element is visited at most twice (once in the queue and once in the hash table)",
+      "path": "2026/05/2026-05-18_jump-game-iv"
     }
   ],
   "streak": {
@@ -1037,12 +1056,12 @@
     "last_date": "2026-05-18"
   },
   "topics": {
-    "array": 11,
+    "array": 12,
     "backtracking": 3,
     "binary-exponentiation": 2,
     "binary-search": 1,
     "bit-boolean-marking": 1,
-    "breadth-first-search": 3,
+    "breadth-first-search": 5,
     "brute-force": 13,
     "circular-list": 1,
     "constraint-based-pruning": 1,
@@ -1059,7 +1078,7 @@
     "greedy": 1,
     "greedy-path-selection": 1,
     "greedy-validation": 1,
-    "hash-table": 6,
+    "hash-table": 8,
     "hash-table-grouping": 1,
     "in-place-algorithm": 1,
     "in-place-transformation": 1,
