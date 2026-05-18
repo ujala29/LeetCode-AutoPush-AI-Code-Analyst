@@ -1,10 +1,10 @@
 {
   "difficulty": {
     "Easy": 24,
-    "Hard": 1,
+    "Hard": 2,
     "Medium": 25
   },
-  "lastUpdated": "2026-05-08T16:16:40.444Z",
+  "lastUpdated": "2026-05-18T16:22:20.092Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -945,10 +945,11 @@
       "title": "Jump Game IX"
     },
     {
+      "approach": "BFS with Prime Teleportation via Smallest Prime Factor Sieve",
       "date": "2026-05-08",
-      "slug": "minimum-jumps-to-reach-end-via-prime-teleportation",
-      "title": "Minimum Jumps to Reach End via Prime Teleportation",
       "difficulty": "Medium",
+      "essence": "Use BFS on index graph where edges include adjacent steps and prime-grouped teleportations, marking used prime channels to avoid redundant traversal.",
+      "path": "2026/05/2026-05-08_minimum-jumps-to-reach-end-via-prime-teleportation",
       "patterns": [
         "Breadth-First Search",
         "Graph modeling",
@@ -956,6 +957,7 @@
         "Hash Table grouping",
         "Virtual node / channel collapsing trick"
       ],
+      "slug": "minimum-jumps-to-reach-end-via-prime-teleportation",
       "tags": [
         "Array",
         "Hash Table",
@@ -963,23 +965,38 @@
         "Breadth-First Search",
         "Number Theory"
       ],
-      "essence": "Use BFS on index graph where edges include adjacent steps and prime-grouped teleportations, marking used prime channels to avoid redundant traversal.",
-      "approach": "BFS with Prime Teleportation via Smallest Prime Factor Sieve",
       "time_complexity": "O(MAXV + n * log(maxVal)) — SPF sieve is O(MAXV log log MAXV), factorization per element is O(log maxVal), BFS visits each index and each prime channel at most once so total teleportation work is O(n).",
-      "path": "2026/05/2026-05-08_minimum-jumps-to-reach-end-via-prime-teleportation"
+      "title": "Minimum Jumps to Reach End via Prime Teleportation"
+    },
+    {
+      "date": "2026-05-18",
+      "slug": "jump-game-iv",
+      "title": "Jump Game IV",
+      "difficulty": "Hard",
+      "patterns": [],
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Breadth-First Search"
+      ],
+      "essence": "Analysis unavailable",
+      "approach": "Unknown",
+      "time_complexity": "Unknown",
+      "path": "2026/05/2026-05-18_jump-game-iv"
     }
   ],
   "streak": {
     "best": 4,
-    "current": 4,
-    "last_date": "2026-05-08"
+    "current": 1,
+    "last_date": "2026-05-18"
   },
   "topics": {
-    "array": 8,
+    "array": 9,
     "backtracking": 2,
     "binary-exponentiation": 2,
     "binary-search": 1,
     "bit-boolean-marking": 1,
+    "breadth-first-search": 3,
     "brute-force": 13,
     "circular-list": 1,
     "constraint-based-pruning": 1,
@@ -992,10 +1009,12 @@
     "enumeration": 5,
     "flag-based-validation": 1,
     "flag-boolean-tracking": 5,
+    "graph-modeling": 1,
     "greedy": 1,
     "greedy-path-selection": 1,
     "greedy-validation": 1,
-    "hash-table": 3,
+    "hash-table": 4,
+    "hash-table-grouping": 1,
     "in-place-algorithm": 1,
     "in-place-transformation": 1,
     "linear-scan": 1,
@@ -1011,11 +1030,13 @@
     "median-finding": 1,
     "merge-arrays": 1,
     "monotonic-traversal": 1,
+    "number-theory": 1,
     "prefix-maximum": 1,
     "recursion": 4,
     "recursion---dfs": 1,
     "rotation-detection": 11,
     "row-by-row-traversal": 1,
+    "sieve-of-eratosthenes--spf-variant-": 1,
     "sorting": 1,
     "space-optimization---rolling-array": 1,
     "string": 25,
@@ -1028,11 +1049,6 @@
     "transpose-and-reflect": 2,
     "two-halves-comparison": 1,
     "two-pointers": 3,
-    "breadth-first-search": 2,
-    "number-theory": 1,
-    "graph-modeling": 1,
-    "sieve-of-eratosthenes--spf-variant-": 1,
-    "hash-table-grouping": 1,
     "virtual-node---channel-collapsing-trick": 1
   },
   "weakTopics": [
