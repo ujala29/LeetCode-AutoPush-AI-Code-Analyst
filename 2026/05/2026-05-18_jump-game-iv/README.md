@@ -12,32 +12,37 @@ Given an array of integers arr , you are initially positioned at the first index
 
 ## Approach
 
-Unknown
+Breadth-First Search (BFS) with Hash Table
 
-> Analysis unavailable
+> Use BFS to explore all possible jumps and track visited indices to find the minimum steps to reach the last index
 
 ## Solution Logic
 
-1. Could not analyze solution
+1. Create a hash table to store the indices of each value in the array
+2. Initialize a queue with the starting index and a visited array to track visited indices
+3. Explore all possible options (move forward, move backward, and move to same valued index) and update the queue and visited array accordingly
+4. Repeat the exploration process until the last index is reached or the queue is empty
 
 ## Complexity Analysis
 
 | Complexity | Analysis |
 |------------|----------|
-| **Time:** | Unknown |
-| **Space:** | Unknown |
+| **Time:** | O(n) — where n is the number of elements in the array, because each element is visited at most twice (once in the queue and once in the hash table) |
+| **Space:** | O(n) — where n is the number of elements in the array, because in the worst case, the queue and hash table can store all elements |
 
 ## Edge Cases Handled
 
-None specified
+- array with duplicate values
+- array with single element
 
 ## What I Learned
 
-AI analysis failed — solution still committed to GitHub
+Using a hash table to store the indices of each value can efficiently explore all possible jumps in the array
 
 ## Similar Problems
 
-None suggested
+- Jump Game
+- Jump Game II
 
 ## Solution Code
 
