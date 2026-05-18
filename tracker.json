@@ -1,10 +1,10 @@
 {
   "difficulty": {
     "Easy": 25,
-    "Hard": 4,
+    "Hard": 5,
     "Medium": 26
   },
-  "lastUpdated": "2026-05-18T17:26:44.073Z",
+  "lastUpdated": "2026-05-18T17:28:24.115Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -1031,23 +1031,43 @@
       "title": "Sudoku Solver"
     },
     {
+      "approach": "Breadth-First Search (BFS) with Hash Table",
       "date": "2026-05-18",
-      "slug": "jump-game-iv",
-      "title": "Jump Game IV",
       "difficulty": "Hard",
+      "essence": "Use BFS to explore all possible jumps and track visited indices to find the minimum steps to reach the last index",
+      "path": "2026/05/2026-05-18_jump-game-iv",
       "patterns": [
         "Breadth-First Search",
         "Hash Table"
       ],
+      "slug": "jump-game-iv",
       "tags": [
         "Array",
         "Hash Table",
         "Breadth-First Search"
       ],
-      "essence": "Use BFS to explore all possible jumps and track visited indices to find the minimum steps to reach the last index",
-      "approach": "Breadth-First Search (BFS) with Hash Table",
       "time_complexity": "O(n) — where n is the number of elements in the array, because each element is visited at most twice (once in the queue and once in the hash table)",
-      "path": "2026/05/2026-05-18_jump-game-iv"
+      "title": "Jump Game IV"
+    },
+    {
+      "date": "2026-05-18",
+      "slug": "sudoku-solver",
+      "title": "Sudoku Solver",
+      "difficulty": "Hard",
+      "patterns": [
+        "Backtracking",
+        "Recursion"
+      ],
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Backtracking",
+        "Matrix"
+      ],
+      "essence": "Solve Sudoku puzzle using backtracking algorithm to fill empty cells",
+      "approach": "Backtracking",
+      "time_complexity": "O(9^(n*n)) — where n is the size of the board, representing the maximum number of possible solutions",
+      "path": "2026/05/2026-05-18_sudoku-solver"
     }
   ],
   "streak": {
@@ -1056,8 +1076,8 @@
     "last_date": "2026-05-18"
   },
   "topics": {
-    "array": 12,
-    "backtracking": 3,
+    "array": 13,
+    "backtracking": 5,
     "binary-exponentiation": 2,
     "binary-search": 1,
     "bit-boolean-marking": 1,
@@ -1078,7 +1098,7 @@
     "greedy": 1,
     "greedy-path-selection": 1,
     "greedy-validation": 1,
-    "hash-table": 8,
+    "hash-table": 9,
     "hash-table-grouping": 1,
     "in-place-algorithm": 1,
     "in-place-transformation": 1,
@@ -1088,7 +1108,7 @@
     "math": 21,
     "math---digit-manipulation": 1,
     "math-index-calculation": 1,
-    "matrix": 6,
+    "matrix": 7,
     "matrix-dp": 1,
     "matrix-manipulation": 2,
     "matrix-traversal": 1,
@@ -1097,7 +1117,7 @@
     "monotonic-traversal": 1,
     "number-theory": 1,
     "prefix-maximum": 1,
-    "recursion": 4,
+    "recursion": 5,
     "recursion---dfs": 1,
     "rotation-detection": 11,
     "row-by-row-traversal": 1,
