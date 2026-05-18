@@ -1,10 +1,10 @@
 {
   "difficulty": {
     "Easy": 25,
-    "Hard": 2,
+    "Hard": 3,
     "Medium": 26
   },
-  "lastUpdated": "2026-05-18T17:22:04.201Z",
+  "lastUpdated": "2026-05-18T17:23:54.503Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -1000,18 +1000,35 @@
       "title": "Two Sum"
     },
     {
+      "approach": "Unknown",
       "date": "2026-05-18",
-      "slug": "string-to-integer-atoi",
-      "title": "String to Integer (atoi)",
       "difficulty": "Medium",
+      "essence": "Analysis unavailable",
+      "path": "2026/05/2026-05-18_string-to-integer-atoi",
       "patterns": [],
+      "slug": "string-to-integer-atoi",
       "tags": [
         "String"
+      ],
+      "time_complexity": "Unknown",
+      "title": "String to Integer (atoi)"
+    },
+    {
+      "date": "2026-05-18",
+      "slug": "sudoku-solver",
+      "title": "Sudoku Solver",
+      "difficulty": "Hard",
+      "patterns": [],
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Backtracking",
+        "Matrix"
       ],
       "essence": "Analysis unavailable",
       "approach": "Unknown",
       "time_complexity": "Unknown",
-      "path": "2026/05/2026-05-18_string-to-integer-atoi"
+      "path": "2026/05/2026-05-18_sudoku-solver"
     }
   ],
   "streak": {
@@ -1020,8 +1037,8 @@
     "last_date": "2026-05-18"
   },
   "topics": {
-    "array": 10,
-    "backtracking": 2,
+    "array": 11,
+    "backtracking": 3,
     "binary-exponentiation": 2,
     "binary-search": 1,
     "bit-boolean-marking": 1,
@@ -1042,7 +1059,7 @@
     "greedy": 1,
     "greedy-path-selection": 1,
     "greedy-validation": 1,
-    "hash-table": 5,
+    "hash-table": 6,
     "hash-table-grouping": 1,
     "in-place-algorithm": 1,
     "in-place-transformation": 1,
@@ -1052,7 +1069,7 @@
     "math": 21,
     "math---digit-manipulation": 1,
     "math-index-calculation": 1,
-    "matrix": 5,
+    "matrix": 6,
     "matrix-dp": 1,
     "matrix-manipulation": 2,
     "matrix-traversal": 1,
@@ -1087,7 +1104,6 @@
     "trees",
     "binary-search",
     "sliding-window",
-    "backtracking",
     "greedy",
     "heap",
     "trie",
