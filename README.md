@@ -3,21 +3,12 @@
 Auto-generated dashboard from your LeetCode solving journey.
 
 ## Stats
-- **Total Solved**: 57
+- **Total Solved**: 1
 - **Current Streak**: 1 days 🔥
-- **Best Streak**: 4 days
-- **Difficulty Breakdown**: Easy: 26, Medium: 26, Hard: 5
+- **Best Streak**: 1 days
+- **Difficulty Breakdown**: Easy: 0, Medium: 1, Hard: 0
 
 ## Recent Solves
 | Date | Problem | Difficulty | Approach |
 |------|---------|------------|----------|
-| 2026-05-18 | [Palindrome Number](https://leetcode.com/problems/palindrome-number) | Easy | Two Pointers and Reversal |
-| 2026-05-18 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | Backtracking |
-| 2026-05-18 | [Jump Game IV](https://leetcode.com/problems/jump-game-iv) | Hard | Breadth-First Search (BFS) with Hash Table |
-| 2026-05-18 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | Unknown |
-| 2026-05-18 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | Unknown |
-| 2026-05-18 | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | Unknown |
-| 2026-05-18 | [Jump Game IV](https://leetcode.com/problems/jump-game-iv) | Hard | Unknown |
-| 2026-05-08 | [Minimum Jumps to Reach End via Prime Teleportation](https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation) | Medium | BFS with Prime Teleportation via Smallest Prime Factor Sieve |
-| 2026-05-07 | [Jump Game IX](https://leetcode.com/problems/jump-game-ix) | Medium | Prefix Maximum + Suffix Minimum with Right-to-Left DP |
-| 2026-05-06 | [Rotating the Box](https://leetcode.com/problems/rotating-the-box) | Medium | Unknown |
+| 2026-05-18 | [Combinations](https://leetcode.com/problems/combinations) | Medium | Backtracking |
