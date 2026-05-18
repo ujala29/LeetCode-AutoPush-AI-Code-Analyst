@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 1,
     "Hard": 0,
-    "Medium": 1
+    "Medium": 2
   },
-  "lastUpdated": "2026-05-18T20:05:46.845Z",
+  "lastUpdated": "2026-05-18T20:55:42.610Z",
   "solves": [
     {
       "approach": "Backtracking",
@@ -24,22 +24,39 @@
       "title": "Combinations"
     },
     {
+      "approach": "Brute Force",
       "date": "2026-05-18",
-      "slug": "two-sum",
-      "title": "Two Sum",
       "difficulty": "Easy",
+      "essence": "Iterate through all pairs of numbers to find the target sum",
+      "path": "2026/05/2026-05-18_two-sum",
       "patterns": [
         "Brute Force",
         "Nested Loops"
       ],
+      "slug": "two-sum",
       "tags": [
         "Array",
         "Hash Table"
       ],
-      "essence": "Iterate through all pairs of numbers to find the target sum",
-      "approach": "Brute Force",
       "time_complexity": "O(n^2) — due to the nested loops iterating through the array",
-      "path": "2026/05/2026-05-18_two-sum"
+      "title": "Two Sum"
+    },
+    {
+      "date": "2026-05-18",
+      "slug": "zigzag-conversion",
+      "title": "Zigzag Conversion",
+      "difficulty": "Medium",
+      "patterns": [
+        "String Manipulation",
+        "Pattern Recognition"
+      ],
+      "tags": [
+        "String"
+      ],
+      "essence": "Convert string to zigzag pattern and read line by line",
+      "approach": "Zigzag Pattern Iteration",
+      "time_complexity": "O(n) — where n is the length of the string, because we are iterating over the string once",
+      "path": "2026/05/2026-05-18_zigzag-conversion"
     }
   ],
   "streak": {
@@ -48,12 +65,15 @@
     "last_date": "2026-05-18"
   },
   "topics": {
-    "backtracking": 2,
-    "recursion": 1,
     "array": 1,
-    "hash-table": 1,
+    "backtracking": 2,
     "brute-force": 1,
-    "nested-loops": 1
+    "hash-table": 1,
+    "nested-loops": 1,
+    "recursion": 1,
+    "string": 1,
+    "string-manipulation": 1,
+    "pattern-recognition": 1
   },
   "weakTopics": [
     "dynamic-programming",
