@@ -3,14 +3,15 @@
 Auto-generated dashboard from your LeetCode solving journey.
 
 ## Stats
-- **Total Solved**: 54
+- **Total Solved**: 55
 - **Current Streak**: 1 days 🔥
 - **Best Streak**: 4 days
-- **Difficulty Breakdown**: Easy: 25, Medium: 26, Hard: 3
+- **Difficulty Breakdown**: Easy: 25, Medium: 26, Hard: 4
 
 ## Recent Solves
 | Date | Problem | Difficulty | Approach |
 |------|---------|------------|----------|
+| 2026-05-18 | [Jump Game IV](https://leetcode.com/problems/jump-game-iv) | Hard | Breadth-First Search (BFS) with Hash Table |
 | 2026-05-18 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver) | Hard | Unknown |
 | 2026-05-18 | [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | Medium | Unknown |
 | 2026-05-18 | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | Unknown |
@@ -20,4 +21,3 @@ Auto-generated dashboard from your LeetCode solving journey.
 | 2026-05-06 | [Rotating the Box](https://leetcode.com/problems/rotating-the-box) | Medium | Unknown |
 | 2026-05-05 | [Rotate Image](https://leetcode.com/problems/rotate-image) | Medium | Transpose + Reverse (In-Place Matrix Rotation) |
 | 2026-05-05 | [Rotate Image](https://leetcode.com/problems/rotate-image) | Medium | Transpose + Reverse (In-Place Matrix Rotation) |
-| 2026-05-05 | [Rotate List](https://leetcode.com/problems/rotate-list) | Medium | Circular Linked List with Pointer Manipulation |
