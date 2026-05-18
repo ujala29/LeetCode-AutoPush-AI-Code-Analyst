@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 25,
+    "Easy": 26,
     "Hard": 5,
     "Medium": 26
   },
-  "lastUpdated": "2026-05-18T17:28:24.115Z",
+  "lastUpdated": "2026-05-18T17:30:24.711Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -1050,24 +1050,41 @@
       "title": "Jump Game IV"
     },
     {
+      "approach": "Backtracking",
       "date": "2026-05-18",
-      "slug": "sudoku-solver",
-      "title": "Sudoku Solver",
       "difficulty": "Hard",
+      "essence": "Solve Sudoku puzzle using backtracking algorithm to fill empty cells",
+      "path": "2026/05/2026-05-18_sudoku-solver",
       "patterns": [
         "Backtracking",
         "Recursion"
       ],
+      "slug": "sudoku-solver",
       "tags": [
         "Array",
         "Hash Table",
         "Backtracking",
         "Matrix"
       ],
-      "essence": "Solve Sudoku puzzle using backtracking algorithm to fill empty cells",
-      "approach": "Backtracking",
       "time_complexity": "O(9^(n*n)) — where n is the size of the board, representing the maximum number of possible solutions",
-      "path": "2026/05/2026-05-18_sudoku-solver"
+      "title": "Sudoku Solver"
+    },
+    {
+      "date": "2026-05-18",
+      "slug": "palindrome-number",
+      "title": "Palindrome Number",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "Reversal"
+      ],
+      "tags": [
+        "Math"
+      ],
+      "essence": "Check if an integer is a palindrome by reversing half of it",
+      "approach": "Two Pointers and Reversal",
+      "time_complexity": "O(log n) — because we are reversing half of the number, which takes logarithmic time",
+      "path": "2026/05/2026-05-18_palindrome-number"
     }
   ],
   "streak": {
@@ -1105,7 +1122,7 @@
     "linear-scan": 1,
     "linked-list": 1,
     "linked-list-manipulation": 1,
-    "math": 21,
+    "math": 22,
     "math---digit-manipulation": 1,
     "math-index-calculation": 1,
     "matrix": 7,
@@ -1133,8 +1150,9 @@
     "suffix-minimum": 1,
     "transpose-and-reflect": 2,
     "two-halves-comparison": 1,
-    "two-pointers": 3,
-    "virtual-node---channel-collapsing-trick": 1
+    "two-pointers": 4,
+    "virtual-node---channel-collapsing-trick": 1,
+    "reversal": 1
   },
   "weakTopics": [
     "graphs",
