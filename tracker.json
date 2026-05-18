@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 25,
     "Hard": 2,
-    "Medium": 25
+    "Medium": 26
   },
-  "lastUpdated": "2026-05-18T17:01:31.736Z",
+  "lastUpdated": "2026-05-18T17:22:04.201Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -985,19 +985,33 @@
       "title": "Jump Game IV"
     },
     {
+      "approach": "Unknown",
       "date": "2026-05-18",
-      "slug": "two-sum",
-      "title": "Two Sum",
       "difficulty": "Easy",
+      "essence": "Analysis unavailable",
+      "path": "2026/05/2026-05-18_two-sum",
       "patterns": [],
+      "slug": "two-sum",
       "tags": [
         "Array",
         "Hash Table"
       ],
+      "time_complexity": "Unknown",
+      "title": "Two Sum"
+    },
+    {
+      "date": "2026-05-18",
+      "slug": "string-to-integer-atoi",
+      "title": "String to Integer (atoi)",
+      "difficulty": "Medium",
+      "patterns": [],
+      "tags": [
+        "String"
+      ],
       "essence": "Analysis unavailable",
       "approach": "Unknown",
       "time_complexity": "Unknown",
-      "path": "2026/05/2026-05-18_two-sum"
+      "path": "2026/05/2026-05-18_string-to-integer-atoi"
     }
   ],
   "streak": {
@@ -1054,7 +1068,7 @@
     "sieve-of-eratosthenes--spf-variant-": 1,
     "sorting": 1,
     "space-optimization---rolling-array": 1,
-    "string": 25,
+    "string": 26,
     "string-building": 1,
     "string-concatenation-trick": 9,
     "string-doubling": 14,
