@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 24,
+    "Easy": 25,
     "Hard": 2,
     "Medium": 25
   },
-  "lastUpdated": "2026-05-18T16:22:20.092Z",
+  "lastUpdated": "2026-05-18T17:01:31.736Z",
   "solves": [
     {
       "approach": "Brute Force Linear Scan with Digit Validation",
@@ -969,20 +969,35 @@
       "title": "Minimum Jumps to Reach End via Prime Teleportation"
     },
     {
+      "approach": "Unknown",
       "date": "2026-05-18",
-      "slug": "jump-game-iv",
-      "title": "Jump Game IV",
       "difficulty": "Hard",
+      "essence": "Analysis unavailable",
+      "path": "2026/05/2026-05-18_jump-game-iv",
       "patterns": [],
+      "slug": "jump-game-iv",
       "tags": [
         "Array",
         "Hash Table",
         "Breadth-First Search"
       ],
+      "time_complexity": "Unknown",
+      "title": "Jump Game IV"
+    },
+    {
+      "date": "2026-05-18",
+      "slug": "two-sum",
+      "title": "Two Sum",
+      "difficulty": "Easy",
+      "patterns": [],
+      "tags": [
+        "Array",
+        "Hash Table"
+      ],
       "essence": "Analysis unavailable",
       "approach": "Unknown",
       "time_complexity": "Unknown",
-      "path": "2026/05/2026-05-18_jump-game-iv"
+      "path": "2026/05/2026-05-18_two-sum"
     }
   ],
   "streak": {
@@ -991,7 +1006,7 @@
     "last_date": "2026-05-18"
   },
   "topics": {
-    "array": 9,
+    "array": 10,
     "backtracking": 2,
     "binary-exponentiation": 2,
     "binary-search": 1,
@@ -1013,7 +1028,7 @@
     "greedy": 1,
     "greedy-path-selection": 1,
     "greedy-validation": 1,
-    "hash-table": 4,
+    "hash-table": 5,
     "hash-table-grouping": 1,
     "in-place-algorithm": 1,
     "in-place-transformation": 1,
