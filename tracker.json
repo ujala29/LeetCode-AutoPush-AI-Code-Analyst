@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 1,
+    "Easy": 2,
     "Hard": 0,
     "Medium": 2
   },
-  "lastUpdated": "2026-05-18T20:55:42.610Z",
+  "lastUpdated": "2026-05-19T05:57:26.198Z",
   "solves": [
     {
       "approach": "Backtracking",
@@ -42,27 +42,44 @@
       "title": "Two Sum"
     },
     {
+      "approach": "Zigzag Pattern Iteration",
       "date": "2026-05-18",
-      "slug": "zigzag-conversion",
-      "title": "Zigzag Conversion",
       "difficulty": "Medium",
+      "essence": "Convert string to zigzag pattern and read line by line",
+      "path": "2026/05/2026-05-18_zigzag-conversion",
       "patterns": [
         "String Manipulation",
         "Pattern Recognition"
       ],
+      "slug": "zigzag-conversion",
       "tags": [
         "String"
       ],
-      "essence": "Convert string to zigzag pattern and read line by line",
-      "approach": "Zigzag Pattern Iteration",
       "time_complexity": "O(n) — where n is the length of the string, because we are iterating over the string once",
-      "path": "2026/05/2026-05-18_zigzag-conversion"
+      "title": "Zigzag Conversion"
+    },
+    {
+      "date": "2026-05-19",
+      "slug": "length-of-last-word",
+      "title": "Length of Last Word",
+      "difficulty": "Easy",
+      "patterns": [
+        "String Manipulation",
+        "Two-Pointer Technique"
+      ],
+      "tags": [
+        "String"
+      ],
+      "essence": "Iterate through the string from the end to find the length of the last word",
+      "approach": "Two-Pointer Technique",
+      "time_complexity": "O(n) — where n is the length of the string, as we potentially iterate through the entire string once",
+      "path": "2026/05/2026-05-19_length-of-last-word"
     }
   ],
   "streak": {
-    "best": 1,
-    "current": 1,
-    "last_date": "2026-05-18"
+    "best": 2,
+    "current": 2,
+    "last_date": "2026-05-19"
   },
   "topics": {
     "array": 1,
@@ -70,10 +87,11 @@
     "brute-force": 1,
     "hash-table": 1,
     "nested-loops": 1,
+    "pattern-recognition": 1,
     "recursion": 1,
-    "string": 1,
-    "string-manipulation": 1,
-    "pattern-recognition": 1
+    "string": 2,
+    "string-manipulation": 2,
+    "two-pointer-technique": 1
   },
   "weakTopics": [
     "dynamic-programming",
