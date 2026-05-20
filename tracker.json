@@ -1,10 +1,10 @@
 {
   "difficulty": {
     "Easy": 2,
-    "Hard": 0,
+    "Hard": 1,
     "Medium": 2
   },
-  "lastUpdated": "2026-05-19T05:57:26.198Z",
+  "lastUpdated": "2026-05-20T18:53:11.150Z",
   "solves": [
     {
       "approach": "Backtracking",
@@ -59,30 +59,51 @@
       "title": "Zigzag Conversion"
     },
     {
+      "approach": "Two-Pointer Technique",
       "date": "2026-05-19",
-      "slug": "length-of-last-word",
-      "title": "Length of Last Word",
       "difficulty": "Easy",
+      "essence": "Iterate through the string from the end to find the length of the last word",
+      "path": "2026/05/2026-05-19_length-of-last-word",
       "patterns": [
         "String Manipulation",
         "Two-Pointer Technique"
       ],
+      "slug": "length-of-last-word",
       "tags": [
         "String"
       ],
-      "essence": "Iterate through the string from the end to find the length of the last word",
-      "approach": "Two-Pointer Technique",
       "time_complexity": "O(n) — where n is the length of the string, as we potentially iterate through the entire string once",
-      "path": "2026/05/2026-05-19_length-of-last-word"
+      "title": "Length of Last Word"
+    },
+    {
+      "date": "2026-05-20",
+      "slug": "trapping-rain-water",
+      "title": "Trapping Rain Water",
+      "difficulty": "Hard",
+      "patterns": [
+        "Two Pointers",
+        "Dynamic Programming"
+      ],
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Dynamic Programming",
+        "Stack",
+        "Monotonic Stack"
+      ],
+      "essence": "Calculate trapped water by finding minimum of left and right max heights for each position",
+      "approach": "Two Pointers with Dynamic Programming",
+      "time_complexity": "O(n) — where n is the number of bars in the elevation map, as we make three passes through the array",
+      "path": "2026/05/2026-05-20_trapping-rain-water"
     }
   ],
   "streak": {
-    "best": 2,
-    "current": 2,
-    "last_date": "2026-05-19"
+    "best": 3,
+    "current": 3,
+    "last_date": "2026-05-20"
   },
   "topics": {
-    "array": 1,
+    "array": 2,
     "backtracking": 2,
     "brute-force": 1,
     "hash-table": 1,
@@ -91,7 +112,11 @@
     "recursion": 1,
     "string": 2,
     "string-manipulation": 2,
-    "two-pointer-technique": 1
+    "two-pointer-technique": 1,
+    "two-pointers": 2,
+    "dynamic-programming": 2,
+    "stack": 1,
+    "monotonic-stack": 1
   },
   "weakTopics": [
     "dynamic-programming",
