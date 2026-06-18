@@ -1,142 +1,41 @@
 {
-  "difficulty": {
-    "Easy": 3,
-    "Hard": 1,
-    "Medium": 2
-  },
-  "lastUpdated": "2026-06-08T04:11:50.719Z",
   "solves": [
     {
-      "approach": "Backtracking",
-      "date": "2026-05-18",
+      "date": "2026-06-18",
+      "slug": "add-two-numbers",
+      "title": "Add Two Numbers",
       "difficulty": "Medium",
-      "essence": "Generate all combinations of k numbers from 1 to n using recursive backtracking",
-      "path": "2026/05/2026-05-18_combinations",
       "patterns": [
-        "Backtracking",
+        "Two-Pointer Technique",
+        "Dynamic Memory Allocation"
+      ],
+      "tags": [
+        "Linked List",
+        "Math",
         "Recursion"
       ],
-      "slug": "combinations",
-      "tags": [
-        "Backtracking"
-      ],
-      "time_complexity": "O(C(n, k)) — where C(n, k) is the number of combinations of n items taken k at a time, because we generate all possible combinations",
-      "title": "Combinations"
-    },
-    {
-      "approach": "Brute Force",
-      "date": "2026-05-18",
-      "difficulty": "Easy",
-      "essence": "Iterate through all pairs of numbers to find the target sum",
-      "path": "2026/05/2026-05-18_two-sum",
-      "patterns": [
-        "Brute Force",
-        "Nested Loops"
-      ],
-      "slug": "two-sum",
-      "tags": [
-        "Array",
-        "Hash Table"
-      ],
-      "time_complexity": "O(n^2) — due to the nested loops iterating through the array",
-      "title": "Two Sum"
-    },
-    {
-      "approach": "Zigzag Pattern Iteration",
-      "date": "2026-05-18",
-      "difficulty": "Medium",
-      "essence": "Convert string to zigzag pattern and read line by line",
-      "path": "2026/05/2026-05-18_zigzag-conversion",
-      "patterns": [
-        "String Manipulation",
-        "Pattern Recognition"
-      ],
-      "slug": "zigzag-conversion",
-      "tags": [
-        "String"
-      ],
-      "time_complexity": "O(n) — where n is the length of the string, because we are iterating over the string once",
-      "title": "Zigzag Conversion"
-    },
-    {
-      "approach": "Two-Pointer Technique",
-      "date": "2026-05-19",
-      "difficulty": "Easy",
-      "essence": "Iterate through the string from the end to find the length of the last word",
-      "path": "2026/05/2026-05-19_length-of-last-word",
-      "patterns": [
-        "String Manipulation",
-        "Two-Pointer Technique"
-      ],
-      "slug": "length-of-last-word",
-      "tags": [
-        "String"
-      ],
-      "time_complexity": "O(n) — where n is the length of the string, as we potentially iterate through the entire string once",
-      "title": "Length of Last Word"
-    },
-    {
-      "approach": "Two Pointers with Dynamic Programming",
-      "date": "2026-05-20",
-      "difficulty": "Hard",
-      "essence": "Calculate trapped water by finding minimum of left and right max heights for each position",
-      "path": "2026/05/2026-05-20_trapping-rain-water",
-      "patterns": [
-        "Two Pointers",
-        "Dynamic Programming"
-      ],
-      "slug": "trapping-rain-water",
-      "tags": [
-        "Array",
-        "Two Pointers",
-        "Dynamic Programming",
-        "Stack",
-        "Monotonic Stack"
-      ],
-      "time_complexity": "O(n) — where n is the number of bars in the elevation map, as we make three passes through the array",
-      "title": "Trapping Rain Water"
-    },
-    {
-      "date": "2026-06-08",
-      "slug": "contains-duplicate-ii",
-      "title": "Contains Duplicate II",
-      "difficulty": "Easy",
-      "patterns": [
-        "Sliding Window",
-        "Hash Table"
-      ],
-      "tags": [
-        "Array",
-        "Hash Table",
-        "Sliding Window"
-      ],
-      "essence": "Use a sliding window and hash table to track nearby duplicates in an array",
-      "approach": "Sliding Window with Hash Table",
-      "time_complexity": "O(n) — where n is the number of elements in the array, because each element is visited at most twice",
-      "path": "2026/06/2026-06-08_contains-duplicate-ii"
+      "essence": "Add two numbers represented as linked lists with carry propagation",
+      "approach": "Two-Pointer Technique with Carry",
+      "time_complexity": "O(max(m, n)) — where m and n are the lengths of the input linked lists, because we process each node once",
+      "path": "2026/06/2026-06-18_add-two-numbers"
     }
   ],
-  "streak": {
-    "best": 3,
-    "current": 1,
-    "last_date": "2026-06-08"
-  },
   "topics": {
-    "array": 3,
-    "backtracking": 2,
-    "brute-force": 1,
-    "dynamic-programming": 2,
-    "hash-table": 3,
-    "monotonic-stack": 1,
-    "nested-loops": 1,
-    "pattern-recognition": 1,
+    "linked-list": 1,
+    "math": 1,
     "recursion": 1,
-    "stack": 1,
-    "string": 2,
-    "string-manipulation": 2,
     "two-pointer-technique": 1,
-    "two-pointers": 2,
-    "sliding-window": 2
+    "dynamic-memory-allocation": 1
+  },
+  "difficulty": {
+    "Easy": 0,
+    "Medium": 1,
+    "Hard": 0
+  },
+  "streak": {
+    "current": 1,
+    "best": 1,
+    "last_date": "2026-06-18"
   },
   "weakTopics": [
     "dynamic-programming",
@@ -155,5 +54,6 @@
     "monotonic-stack",
     "union-find",
     "bit-manipulation"
-  ]
+  ],
+  "lastUpdated": "2026-06-18T08:21:33.717Z"
 }
