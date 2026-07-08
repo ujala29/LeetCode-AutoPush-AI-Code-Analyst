@@ -1,31 +1,27 @@
 {
   "solves": [
     {
-      "date": "2026-06-18",
-      "slug": "add-two-numbers",
-      "title": "Add Two Numbers",
+      "date": "2026-07-08",
+      "slug": "reverse-integer",
+      "title": "Reverse Integer",
       "difficulty": "Medium",
       "patterns": [
-        "Two-Pointer Technique",
-        "Dynamic Memory Allocation"
+        "Modular Arithmetic",
+        "Overflow Handling"
       ],
       "tags": [
-        "Linked List",
-        "Math",
-        "Recursion"
+        "Math"
       ],
-      "essence": "Add two numbers represented as linked lists with carry propagation",
-      "approach": "Two-Pointer Technique with Carry",
-      "time_complexity": "O(max(m, n)) — where m and n are the lengths of the input linked lists, because we process each node once",
-      "path": "2026/06/2026-06-18_add-two-numbers"
+      "essence": "Reverse integer by iteratively appending digits while checking for overflow",
+      "approach": "Math/Modular Arithmetic",
+      "time_complexity": "O(log|x|) — because we process each digit of the input number once",
+      "path": "2026/07/2026-07-08_reverse-integer"
     }
   ],
   "topics": {
-    "linked-list": 1,
     "math": 1,
-    "recursion": 1,
-    "two-pointer-technique": 1,
-    "dynamic-memory-allocation": 1
+    "modular-arithmetic": 1,
+    "overflow-handling": 1
   },
   "difficulty": {
     "Easy": 0,
@@ -35,7 +31,7 @@
   "streak": {
     "current": 1,
     "best": 1,
-    "last_date": "2026-06-18"
+    "last_date": "2026-07-08"
   },
   "weakTopics": [
     "dynamic-programming",
@@ -55,5 +51,5 @@
     "union-find",
     "bit-manipulation"
   ],
-  "lastUpdated": "2026-06-18T08:21:33.717Z"
+  "lastUpdated": "2026-07-08T06:25:22.835Z"
 }
