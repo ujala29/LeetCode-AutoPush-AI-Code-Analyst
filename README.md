@@ -11,4 +11,4 @@ Auto-generated dashboard from your LeetCode solving journey.
 ## Recent Solves
 | Date | Problem | Difficulty | Approach |
 |------|---------|------------|----------|
-| 2026-06-18 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers) | Medium | Two-Pointer Technique with Carry |
+| 2026-07-08 | [Reverse Integer](https://leetcode.com/problems/reverse-integer) | Medium | Math/Modular Arithmetic |
