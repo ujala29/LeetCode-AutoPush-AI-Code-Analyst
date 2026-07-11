@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 1,
+    "Easy": 2,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-11T17:29:04.601Z",
+  "lastUpdated": "2026-07-11T18:08:35.191Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -24,22 +24,40 @@
       "title": "Reverse Integer"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-11",
-      "slug": "remove-duplicates-from-sorted-array",
-      "title": "Remove Duplicates from Sorted Array",
       "difficulty": "Easy",
+      "essence": "Use two pointers to track unique elements in a sorted array",
+      "path": "2026/07/2026-07-11_remove-duplicates-from-sorted-array",
       "patterns": [
         "Two Pointers",
         "In-place modification"
+      ],
+      "slug": "remove-duplicates-from-sorted-array",
+      "tags": [
+        "Array",
+        "Two Pointers"
+      ],
+      "time_complexity": "O(n) — where n is the number of elements in the array, because we are scanning the array once",
+      "title": "Remove Duplicates from Sorted Array"
+    },
+    {
+      "date": "2026-07-11",
+      "slug": "remove-element",
+      "title": "Remove Element",
+      "difficulty": "Easy",
+      "patterns": [
+        "In-place modification",
+        "Two Pointers"
       ],
       "tags": [
         "Array",
         "Two Pointers"
       ],
-      "essence": "Use two pointers to track unique elements in a sorted array",
+      "essence": "Remove elements from an array in-place using two pointers",
       "approach": "Two Pointers",
-      "time_complexity": "O(n) — where n is the number of elements in the array, because we are scanning the array once",
-      "path": "2026/07/2026-07-11_remove-duplicates-from-sorted-array"
+      "time_complexity": "O(n) — where n is the number of elements in the array, because we are potentially scanning the entire array once",
+      "path": "2026/07/2026-07-11_remove-element"
     }
   ],
   "streak": {
@@ -48,12 +66,12 @@
     "last_date": "2026-07-11"
   },
   "topics": {
+    "array": 2,
+    "in-place-modification": 2,
     "math": 1,
     "modular-arithmetic": 1,
     "overflow-handling": 1,
-    "array": 1,
-    "two-pointers": 2,
-    "in-place-modification": 1
+    "two-pointers": 4
   },
   "weakTopics": [
     "dynamic-programming",
@@ -62,7 +80,6 @@
     "dfs",
     "trees",
     "binary-search",
-    "two-pointers",
     "sliding-window",
     "backtracking",
     "greedy",
