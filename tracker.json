@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 3,
+    "Easy": 4,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-11T18:31:06.867Z",
+  "lastUpdated": "2026-07-11T18:50:24.019Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -60,23 +60,44 @@
       "title": "Remove Element"
     },
     {
+      "approach": "Built-in String Method",
       "date": "2026-07-11",
-      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
-      "title": "Find the Index of the First Occurrence in a String",
       "difficulty": "Easy",
+      "essence": "Utilize Python's built-in string method to find the index of the first occurrence of a substring",
+      "path": "2026/07/2026-07-11_find-the-index-of-the-first-occurrence-in-a-string",
       "patterns": [
         "String Matching",
         "Two Pointers"
       ],
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
       "tags": [
         "Two Pointers",
         "String",
         "String Matching"
       ],
-      "essence": "Utilize Python's built-in string method to find the index of the first occurrence of a substring",
-      "approach": "Built-in String Method",
       "time_complexity": "O(n) — where n is the length of the haystack string, because in the worst case the find method has to scan the entire string",
-      "path": "2026/07/2026-07-11_find-the-index-of-the-first-occurrence-in-a-string"
+      "title": "Find the Index of the First Occurrence in a String"
+    },
+    {
+      "date": "2026-07-11",
+      "slug": "happy-number",
+      "title": "Happy Number",
+      "difficulty": "Easy",
+      "patterns": [
+        "Hash Table",
+        "Math",
+        "Two Pointers",
+        "Cycle Detection"
+      ],
+      "tags": [
+        "Hash Table",
+        "Math",
+        "Two Pointers"
+      ],
+      "essence": "Determine if a number is happy by detecting cycles using Floyd's algorithm",
+      "approach": "Floyd's Tortoise and Hare (Cycle Detection) algorithm",
+      "time_complexity": "O(log n) — because the number of digits in n is logarithmic in n, and each iteration reduces the number of digits",
+      "path": "2026/07/2026-07-11_happy-number"
     }
   ],
   "streak": {
@@ -87,12 +108,14 @@
   "topics": {
     "array": 2,
     "in-place-modification": 2,
-    "math": 1,
+    "math": 3,
     "modular-arithmetic": 1,
     "overflow-handling": 1,
-    "two-pointers": 6,
     "string": 1,
-    "string-matching": 2
+    "string-matching": 2,
+    "two-pointers": 8,
+    "hash-table": 2,
+    "cycle-detection": 1
   },
   "weakTopics": [
     "dynamic-programming",
