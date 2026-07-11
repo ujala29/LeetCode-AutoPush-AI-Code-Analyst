@@ -1,0 +1,21 @@
+class Solution:
+    def sqr(self, n: int) -> int:
+        total = 0
+        while n != 0:
+            rem = n % 10
+            total += rem * rem
+            n = n // 10
+        return total   
+
+    def isHappy(self, n: int) -> bool:
+        slow = n
+        fast = n
+
+        while True:
+            slow = self.sqr(slow)
+            fast = self.sqr(self.sqr(fast))
+
+            if slow == fast:
+                break
+
+        return slow == 1
