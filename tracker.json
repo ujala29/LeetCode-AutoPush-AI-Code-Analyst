@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 2,
+    "Easy": 3,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-11T18:08:35.191Z",
+  "lastUpdated": "2026-07-11T18:31:06.867Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -42,22 +42,41 @@
       "title": "Remove Duplicates from Sorted Array"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-11",
-      "slug": "remove-element",
-      "title": "Remove Element",
       "difficulty": "Easy",
+      "essence": "Remove elements from an array in-place using two pointers",
+      "path": "2026/07/2026-07-11_remove-element",
       "patterns": [
         "In-place modification",
         "Two Pointers"
       ],
+      "slug": "remove-element",
       "tags": [
         "Array",
         "Two Pointers"
       ],
-      "essence": "Remove elements from an array in-place using two pointers",
-      "approach": "Two Pointers",
       "time_complexity": "O(n) — where n is the number of elements in the array, because we are potentially scanning the entire array once",
-      "path": "2026/07/2026-07-11_remove-element"
+      "title": "Remove Element"
+    },
+    {
+      "date": "2026-07-11",
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "title": "Find the Index of the First Occurrence in a String",
+      "difficulty": "Easy",
+      "patterns": [
+        "String Matching",
+        "Two Pointers"
+      ],
+      "tags": [
+        "Two Pointers",
+        "String",
+        "String Matching"
+      ],
+      "essence": "Utilize Python's built-in string method to find the index of the first occurrence of a substring",
+      "approach": "Built-in String Method",
+      "time_complexity": "O(n) — where n is the length of the haystack string, because in the worst case the find method has to scan the entire string",
+      "path": "2026/07/2026-07-11_find-the-index-of-the-first-occurrence-in-a-string"
     }
   ],
   "streak": {
@@ -71,7 +90,9 @@
     "math": 1,
     "modular-arithmetic": 1,
     "overflow-handling": 1,
-    "two-pointers": 4
+    "two-pointers": 6,
+    "string": 1,
+    "string-matching": 2
   },
   "weakTopics": [
     "dynamic-programming",
