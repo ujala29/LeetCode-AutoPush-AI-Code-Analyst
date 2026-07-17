@@ -3,14 +3,15 @@
 Auto-generated dashboard from your LeetCode solving journey.
 
 ## Stats
-- **Total Solved**: 11
+- **Total Solved**: 12
 - **Current Streak**: 1 days 🔥
 - **Best Streak**: 1 days
-- **Difficulty Breakdown**: Easy: 10, Medium: 1, Hard: 0
+- **Difficulty Breakdown**: Easy: 11, Medium: 1, Hard: 0
 
 ## Recent Solves
 | Date | Problem | Difficulty | Approach |
 |------|---------|------------|----------|
+| 2026-07-17 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | Two Pointers |
 | 2026-07-17 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | Two Pointers |
 | 2026-07-17 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii) | Easy | Two Pointers and String Manipulation |
 | 2026-07-17 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | Two Pointers |
@@ -20,4 +21,3 @@ Auto-generated dashboard from your LeetCode solving journey.
 | 2026-07-11 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | Floyd's Tortoise and Hare (Cycle Detection) algorithm |
 | 2026-07-11 | [Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | Easy | Built-in String Method |
 | 2026-07-11 | [Remove Element](https://leetcode.com/problems/remove-element) | Easy | Two Pointers |
-| 2026-07-11 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | Easy | Two Pointers |
