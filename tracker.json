@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 11,
+    "Easy": 12,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-17T21:17:29.383Z",
+  "lastUpdated": "2026-07-17T21:46:31.419Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -216,23 +216,41 @@
       "title": "Reverse Words in a String III"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-17",
-      "slug": "sort-array-by-parity",
-      "title": "Sort Array By Parity",
       "difficulty": "Easy",
+      "essence": "Separate even and odd numbers using two pointers",
+      "path": "2026/07/2026-07-17_sort-array-by-parity",
       "patterns": [
         "Two Pointers",
         "Array Manipulation"
       ],
+      "slug": "sort-array-by-parity",
       "tags": [
         "Array",
         "Two Pointers",
         "Sorting"
       ],
-      "essence": "Separate even and odd numbers using two pointers",
-      "approach": "Two Pointers",
       "time_complexity": "O(n) — where n is the number of elements in the array, because we are doing a single pass through the array",
-      "path": "2026/07/2026-07-17_sort-array-by-parity"
+      "title": "Sort Array By Parity"
+    },
+    {
+      "date": "2026-07-17",
+      "slug": "count-binary-substrings",
+      "title": "Count Binary Substrings",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "Sliding Window"
+      ],
+      "tags": [
+        "Two Pointers",
+        "String"
+      ],
+      "essence": "Count binary substrings with consecutive 0's and 1's by tracking previous and current character counts",
+      "approach": "Two Pointers",
+      "time_complexity": "O(n) — where n is the length of the string, because we make a single pass through the string",
+      "path": "2026/07/2026-07-17_count-binary-substrings"
     }
   ],
   "streak": {
@@ -242,6 +260,7 @@
   },
   "topics": {
     "array": 5,
+    "array-manipulation": 1,
     "binary-search": 2,
     "cycle-detection": 1,
     "dynamic-programming": 1,
@@ -252,11 +271,11 @@
     "overflow-handling": 1,
     "set": 1,
     "sorting": 5,
-    "string": 5,
+    "string": 6,
     "string-manipulation": 3,
     "string-matching": 2,
-    "two-pointers": 22,
-    "array-manipulation": 1
+    "two-pointers": 24,
+    "sliding-window": 1
   },
   "weakTopics": [
     "dynamic-programming",
