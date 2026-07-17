@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 5,
+    "Easy": 6,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-14T15:09:03.865Z",
+  "lastUpdated": "2026-07-17T20:03:24.658Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -100,40 +100,65 @@
       "title": "Happy Number"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-14",
-      "slug": "reverse-string",
-      "title": "Reverse String",
       "difficulty": "Easy",
+      "essence": "Reverse a string in-place using two pointers",
+      "path": "2026/07/2026-07-14_reverse-string",
       "patterns": [
         "Two Pointers",
         "In-place modification"
       ],
+      "slug": "reverse-string",
       "tags": [
         "Two Pointers",
         "String"
       ],
-      "essence": "Reverse a string in-place using two pointers",
-      "approach": "Two Pointers",
       "time_complexity": "O(n) — where n is the length of the string, because we are scanning the string once",
-      "path": "2026/07/2026-07-14_reverse-string"
+      "title": "Reverse String"
+    },
+    {
+      "date": "2026-07-17",
+      "slug": "intersection-of-two-arrays",
+      "title": "Intersection of Two Arrays",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "Sorting",
+        "Set"
+      ],
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Two Pointers",
+        "Binary Search",
+        "Sorting"
+      ],
+      "essence": "Find unique intersection of two arrays using sorted sets and two pointers",
+      "approach": "Two Pointers with Sorting and Set",
+      "time_complexity": "O(n log n + m log m) — due to sorting the sets of size n and m",
+      "path": "2026/07/2026-07-17_intersection-of-two-arrays"
     }
   ],
   "streak": {
     "best": 1,
     "current": 1,
-    "last_date": "2026-07-14"
+    "last_date": "2026-07-17"
   },
   "topics": {
-    "array": 2,
+    "array": 3,
     "cycle-detection": 1,
-    "hash-table": 2,
+    "hash-table": 3,
     "in-place-modification": 3,
     "math": 3,
     "modular-arithmetic": 1,
     "overflow-handling": 1,
     "string": 2,
     "string-matching": 2,
-    "two-pointers": 10
+    "two-pointers": 12,
+    "binary-search": 1,
+    "sorting": 2,
+    "set": 1
   },
   "weakTopics": [
     "dynamic-programming",
