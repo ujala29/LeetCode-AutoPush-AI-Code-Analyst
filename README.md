@@ -3,14 +3,15 @@
 Auto-generated dashboard from your LeetCode solving journey.
 
 ## Stats
-- **Total Solved**: 9
+- **Total Solved**: 10
 - **Current Streak**: 1 days 🔥
 - **Best Streak**: 1 days
-- **Difficulty Breakdown**: Easy: 8, Medium: 1, Hard: 0
+- **Difficulty Breakdown**: Easy: 9, Medium: 1, Hard: 0
 
 ## Recent Solves
 | Date | Problem | Difficulty | Approach |
 |------|---------|------------|----------|
+| 2026-07-17 | [Reverse String II](https://leetcode.com/problems/reverse-string-ii) | Easy | Two Pointers and String Manipulation |
 | 2026-07-17 | [Is Subsequence](https://leetcode.com/problems/is-subsequence) | Easy | Two Pointers |
 | 2026-07-17 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) | Easy | Two Pointers |
 | 2026-07-17 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | Easy | Two Pointers with Sorting and Set |
