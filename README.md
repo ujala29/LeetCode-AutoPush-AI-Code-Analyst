@@ -3,14 +3,15 @@
 Auto-generated dashboard from your LeetCode solving journey.
 
 ## Stats
-- **Total Solved**: 7
+- **Total Solved**: 8
 - **Current Streak**: 1 days 🔥
 - **Best Streak**: 1 days
-- **Difficulty Breakdown**: Easy: 6, Medium: 1, Hard: 0
+- **Difficulty Breakdown**: Easy: 7, Medium: 1, Hard: 0
 
 ## Recent Solves
 | Date | Problem | Difficulty | Approach |
 |------|---------|------------|----------|
+| 2026-07-17 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii) | Easy | Two Pointers |
 | 2026-07-17 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays) | Easy | Two Pointers with Sorting and Set |
 | 2026-07-14 | [Reverse String](https://leetcode.com/problems/reverse-string) | Easy | Two Pointers |
 | 2026-07-11 | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | Floyd's Tortoise and Hare (Cycle Detection) algorithm |
