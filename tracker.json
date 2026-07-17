@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 10,
+    "Easy": 11,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-17T20:57:03.166Z",
+  "lastUpdated": "2026-07-17T21:17:29.383Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -198,22 +198,41 @@
       "title": "Reverse String II"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-17",
-      "slug": "reverse-words-in-a-string-iii",
-      "title": "Reverse Words in a String III",
       "difficulty": "Easy",
+      "essence": "Reverse each word in a string while preserving whitespace and initial word order",
+      "path": "2026/07/2026-07-17_reverse-words-in-a-string-iii",
       "patterns": [
         "Two Pointers",
         "String Manipulation"
       ],
+      "slug": "reverse-words-in-a-string-iii",
       "tags": [
         "Two Pointers",
         "String"
       ],
-      "essence": "Reverse each word in a string while preserving whitespace and initial word order",
-      "approach": "Two Pointers",
       "time_complexity": "O(n) — where n is the length of the input string, because we are scanning the string once",
-      "path": "2026/07/2026-07-17_reverse-words-in-a-string-iii"
+      "title": "Reverse Words in a String III"
+    },
+    {
+      "date": "2026-07-17",
+      "slug": "sort-array-by-parity",
+      "title": "Sort Array By Parity",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "Array Manipulation"
+      ],
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Sorting"
+      ],
+      "essence": "Separate even and odd numbers using two pointers",
+      "approach": "Two Pointers",
+      "time_complexity": "O(n) — where n is the number of elements in the array, because we are doing a single pass through the array",
+      "path": "2026/07/2026-07-17_sort-array-by-parity"
     }
   ],
   "streak": {
@@ -222,7 +241,7 @@
     "last_date": "2026-07-17"
   },
   "topics": {
-    "array": 4,
+    "array": 5,
     "binary-search": 2,
     "cycle-detection": 1,
     "dynamic-programming": 1,
@@ -232,11 +251,12 @@
     "modular-arithmetic": 1,
     "overflow-handling": 1,
     "set": 1,
-    "sorting": 4,
+    "sorting": 5,
     "string": 5,
     "string-manipulation": 3,
     "string-matching": 2,
-    "two-pointers": 20
+    "two-pointers": 22,
+    "array-manipulation": 1
   },
   "weakTopics": [
     "dynamic-programming",
