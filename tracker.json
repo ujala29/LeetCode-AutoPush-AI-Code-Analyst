@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 6,
+    "Easy": 7,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-17T20:03:24.658Z",
+  "lastUpdated": "2026-07-17T20:07:18.137Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -118,14 +118,35 @@
       "title": "Reverse String"
     },
     {
+      "approach": "Two Pointers with Sorting and Set",
       "date": "2026-07-17",
-      "slug": "intersection-of-two-arrays",
-      "title": "Intersection of Two Arrays",
       "difficulty": "Easy",
+      "essence": "Find unique intersection of two arrays using sorted sets and two pointers",
+      "path": "2026/07/2026-07-17_intersection-of-two-arrays",
       "patterns": [
         "Two Pointers",
         "Sorting",
         "Set"
+      ],
+      "slug": "intersection-of-two-arrays",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Two Pointers",
+        "Binary Search",
+        "Sorting"
+      ],
+      "time_complexity": "O(n log n + m log m) — due to sorting the sets of size n and m",
+      "title": "Intersection of Two Arrays"
+    },
+    {
+      "date": "2026-07-17",
+      "slug": "intersection-of-two-arrays-ii",
+      "title": "Intersection of Two Arrays II",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "Sorting"
       ],
       "tags": [
         "Array",
@@ -134,10 +155,10 @@
         "Binary Search",
         "Sorting"
       ],
-      "essence": "Find unique intersection of two arrays using sorted sets and two pointers",
-      "approach": "Two Pointers with Sorting and Set",
-      "time_complexity": "O(n log n + m log m) — due to sorting the sets of size n and m",
-      "path": "2026/07/2026-07-17_intersection-of-two-arrays"
+      "essence": "Return intersection of two arrays with duplicate counts preserved",
+      "approach": "Two Pointers",
+      "time_complexity": "O(n log n + m log m) — due to sorting both input arrays of lengths n and m",
+      "path": "2026/07/2026-07-17_intersection-of-two-arrays-ii"
     }
   ],
   "streak": {
@@ -146,19 +167,19 @@
     "last_date": "2026-07-17"
   },
   "topics": {
-    "array": 3,
+    "array": 4,
+    "binary-search": 2,
     "cycle-detection": 1,
-    "hash-table": 3,
+    "hash-table": 4,
     "in-place-modification": 3,
     "math": 3,
     "modular-arithmetic": 1,
     "overflow-handling": 1,
+    "set": 1,
+    "sorting": 4,
     "string": 2,
     "string-matching": 2,
-    "two-pointers": 12,
-    "binary-search": 1,
-    "sorting": 2,
-    "set": 1
+    "two-pointers": 14
   },
   "weakTopics": [
     "dynamic-programming",
