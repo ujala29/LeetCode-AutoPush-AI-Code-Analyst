@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 16,
+    "Easy": 17,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-18T08:28:19.065Z",
+  "lastUpdated": "2026-07-18T09:24:34.515Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -312,25 +312,43 @@
       "title": "Flipping an Image"
     },
     {
+      "approach": "Two Pointers/Stack Simulation",
       "date": "2026-07-18",
-      "slug": "backspace-string-compare",
-      "title": "Backspace String Compare",
       "difficulty": "Easy",
+      "essence": "Compare two strings with backspace characters by simulating the backspace operation",
+      "path": "2026/07/2026-07-18_backspace-string-compare",
       "patterns": [
         "Two Pointers",
         "Stack",
         "Simulation"
       ],
+      "slug": "backspace-string-compare",
       "tags": [
         "Two Pointers",
         "String",
         "Stack",
         "Simulation"
       ],
-      "essence": "Compare two strings with backspace characters by simulating the backspace operation",
-      "approach": "Two Pointers/Stack Simulation",
       "time_complexity": "O(n + m) — where n and m are the lengths of the input strings, because we process each character in both strings once",
-      "path": "2026/07/2026-07-18_backspace-string-compare"
+      "title": "Backspace String Compare"
+    },
+    {
+      "date": "2026-07-18",
+      "slug": "reverse-only-letters",
+      "title": "Reverse Only Letters",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "String Manipulation"
+      ],
+      "tags": [
+        "Two Pointers",
+        "String"
+      ],
+      "essence": "Reverse English letters in a string while keeping non-letters in place",
+      "approach": "Two Pointers",
+      "time_complexity": "O(n) — where n is the length of the string, because we potentially visit each character once",
+      "path": "2026/07/2026-07-18_reverse-only-letters"
     }
   ],
   "streak": {
@@ -358,11 +376,11 @@
     "simulation": 3,
     "sliding-window": 1,
     "sorting": 5,
-    "string": 9,
-    "string-manipulation": 3,
+    "stack": 2,
+    "string": 10,
+    "string-manipulation": 4,
     "string-matching": 2,
-    "two-pointers": 31,
-    "stack": 2
+    "two-pointers": 33
   },
   "weakTopics": [
     "dynamic-programming",
