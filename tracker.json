@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 15,
+    "Easy": 16,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-18T01:41:39.972Z",
+  "lastUpdated": "2026-07-18T08:28:19.065Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -291,14 +291,16 @@
       "title": "Shortest Distance to a Character"
     },
     {
+      "approach": "Two-Step Iteration",
       "date": "2026-07-18",
-      "slug": "flipping-an-image",
-      "title": "Flipping an Image",
       "difficulty": "Easy",
+      "essence": "Flip and invert a binary image horizontally and then invert it",
+      "path": "2026/07/2026-07-18_flipping-an-image",
       "patterns": [
         "Array Manipulation",
         "Matrix Operations"
       ],
+      "slug": "flipping-an-image",
       "tags": [
         "Array",
         "Two Pointers",
@@ -306,10 +308,29 @@
         "Matrix",
         "Simulation"
       ],
-      "essence": "Flip and invert a binary image horizontally and then invert it",
-      "approach": "Two-Step Iteration",
       "time_complexity": "O(n^2) — where n is the number of rows (or columns) in the image, because we are iterating over each element once",
-      "path": "2026/07/2026-07-18_flipping-an-image"
+      "title": "Flipping an Image"
+    },
+    {
+      "date": "2026-07-18",
+      "slug": "backspace-string-compare",
+      "title": "Backspace String Compare",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "Stack",
+        "Simulation"
+      ],
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Stack",
+        "Simulation"
+      ],
+      "essence": "Compare two strings with backspace characters by simulating the backspace operation",
+      "approach": "Two Pointers/Stack Simulation",
+      "time_complexity": "O(n + m) — where n and m are the lengths of the input strings, because we process each character in both strings once",
+      "path": "2026/07/2026-07-18_backspace-string-compare"
     }
   ],
   "streak": {
@@ -322,25 +343,26 @@
     "array-manipulation": 2,
     "array-traversal": 1,
     "binary-search": 2,
+    "bit-manipulation": 1,
     "cycle-detection": 1,
     "dynamic-programming": 1,
     "greedy": 2,
     "hash-table": 4,
     "in-place-modification": 3,
     "math": 3,
+    "matrix": 1,
+    "matrix-operations": 1,
     "modular-arithmetic": 1,
     "overflow-handling": 1,
     "set": 1,
+    "simulation": 3,
     "sliding-window": 1,
     "sorting": 5,
-    "string": 8,
+    "string": 9,
     "string-manipulation": 3,
     "string-matching": 2,
-    "two-pointers": 29,
-    "bit-manipulation": 1,
-    "matrix": 1,
-    "simulation": 1,
-    "matrix-operations": 1
+    "two-pointers": 31,
+    "stack": 2
   },
   "weakTopics": [
     "dynamic-programming",
