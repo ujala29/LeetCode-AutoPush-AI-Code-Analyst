@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 20,
+    "Easy": 21,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-18T14:31:22.912Z",
+  "lastUpdated": "2026-07-18T15:15:04.488Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -388,24 +388,43 @@
       "title": "Long Pressed Name"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-18",
-      "slug": "di-string-match",
-      "title": "DI String Match",
       "difficulty": "Easy",
+      "essence": "Reconstruct permutation by iterating through string and adjusting pointers based on character values",
+      "path": "2026/07/2026-07-18_di-string-match",
       "patterns": [
         "Two Pointers",
         "Greedy"
       ],
+      "slug": "di-string-match",
       "tags": [
         "Array",
         "Two Pointers",
         "String",
         "Greedy"
       ],
-      "essence": "Reconstruct permutation by iterating through string and adjusting pointers based on character values",
-      "approach": "Two Pointers",
       "time_complexity": "O(n) — where n is the length of the string, as we only iterate through the string once",
-      "path": "2026/07/2026-07-18_di-string-match"
+      "title": "DI String Match"
+    },
+    {
+      "date": "2026-07-18",
+      "slug": "squares-of-a-sorted-array",
+      "title": "Squares of a Sorted Array",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "Sorting"
+      ],
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Sorting"
+      ],
+      "essence": "Sort squares of numbers in non-decreasing order using two pointers",
+      "approach": "Two Pointers",
+      "time_complexity": "O(n) — where n is the number of elements in the input array, because we are scanning the array once",
+      "path": "2026/07/2026-07-18_squares-of-a-sorted-array"
     }
   ],
   "streak": {
@@ -414,7 +433,7 @@
     "last_date": "2026-07-18"
   },
   "topics": {
-    "array": 9,
+    "array": 10,
     "array-manipulation": 2,
     "array-traversal": 1,
     "binary-search": 2,
@@ -432,12 +451,12 @@
     "set": 1,
     "simulation": 3,
     "sliding-window": 1,
-    "sorting": 6,
+    "sorting": 8,
     "stack": 2,
     "string": 12,
     "string-manipulation": 5,
     "string-matching": 2,
-    "two-pointers": 39
+    "two-pointers": 41
   },
   "weakTopics": [
     "dynamic-programming",
