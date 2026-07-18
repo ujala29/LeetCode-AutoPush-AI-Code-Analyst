@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 18,
+    "Easy": 19,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-18T09:41:54.094Z",
+  "lastUpdated": "2026-07-18T10:29:49.689Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -351,23 +351,41 @@
       "title": "Reverse Only Letters"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-18",
-      "slug": "sort-array-by-parity-ii",
-      "title": "Sort Array By Parity II",
       "difficulty": "Easy",
+      "essence": "Swap odd numbers at even indices with even numbers at odd indices",
+      "path": "2026/07/2026-07-18_sort-array-by-parity-ii",
       "patterns": [
         "In-place modification",
         "Two Pointers"
       ],
+      "slug": "sort-array-by-parity-ii",
       "tags": [
         "Array",
         "Two Pointers",
         "Sorting"
       ],
-      "essence": "Swap odd numbers at even indices with even numbers at odd indices",
-      "approach": "Two Pointers",
       "time_complexity": "O(n) — where n is the number of elements in the input array, because we are potentially scanning the entire array once",
-      "path": "2026/07/2026-07-18_sort-array-by-parity-ii"
+      "title": "Sort Array By Parity II"
+    },
+    {
+      "date": "2026-07-18",
+      "slug": "long-pressed-name",
+      "title": "Long Pressed Name",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "String Manipulation"
+      ],
+      "tags": [
+        "Two Pointers",
+        "String"
+      ],
+      "essence": "Check if typed string can be formed by long pressing characters in the name string",
+      "approach": "Two Pointers",
+      "time_complexity": "O(n + m) — where n and m are lengths of name and typed strings respectively, because we are scanning both strings once",
+      "path": "2026/07/2026-07-18_long-pressed-name"
     }
   ],
   "streak": {
@@ -396,10 +414,10 @@
     "sliding-window": 1,
     "sorting": 6,
     "stack": 2,
-    "string": 10,
-    "string-manipulation": 4,
+    "string": 11,
+    "string-manipulation": 5,
     "string-matching": 2,
-    "two-pointers": 35
+    "two-pointers": 37
   },
   "weakTopics": [
     "dynamic-programming",
