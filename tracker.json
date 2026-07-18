@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 19,
+    "Easy": 20,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-18T10:29:49.689Z",
+  "lastUpdated": "2026-07-18T14:31:22.912Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -370,22 +370,42 @@
       "title": "Sort Array By Parity II"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-18",
-      "slug": "long-pressed-name",
-      "title": "Long Pressed Name",
       "difficulty": "Easy",
+      "essence": "Check if typed string can be formed by long pressing characters in the name string",
+      "path": "2026/07/2026-07-18_long-pressed-name",
       "patterns": [
         "Two Pointers",
         "String Manipulation"
       ],
+      "slug": "long-pressed-name",
       "tags": [
         "Two Pointers",
         "String"
       ],
-      "essence": "Check if typed string can be formed by long pressing characters in the name string",
-      "approach": "Two Pointers",
       "time_complexity": "O(n + m) — where n and m are lengths of name and typed strings respectively, because we are scanning both strings once",
-      "path": "2026/07/2026-07-18_long-pressed-name"
+      "title": "Long Pressed Name"
+    },
+    {
+      "date": "2026-07-18",
+      "slug": "di-string-match",
+      "title": "DI String Match",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "Greedy"
+      ],
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "String",
+        "Greedy"
+      ],
+      "essence": "Reconstruct permutation by iterating through string and adjusting pointers based on character values",
+      "approach": "Two Pointers",
+      "time_complexity": "O(n) — where n is the length of the string, as we only iterate through the string once",
+      "path": "2026/07/2026-07-18_di-string-match"
     }
   ],
   "streak": {
@@ -394,14 +414,14 @@
     "last_date": "2026-07-18"
   },
   "topics": {
-    "array": 8,
+    "array": 9,
     "array-manipulation": 2,
     "array-traversal": 1,
     "binary-search": 2,
     "bit-manipulation": 1,
     "cycle-detection": 1,
     "dynamic-programming": 1,
-    "greedy": 2,
+    "greedy": 4,
     "hash-table": 4,
     "in-place-modification": 4,
     "math": 3,
@@ -414,10 +434,10 @@
     "sliding-window": 1,
     "sorting": 6,
     "stack": 2,
-    "string": 11,
+    "string": 12,
     "string-manipulation": 5,
     "string-matching": 2,
-    "two-pointers": 37
+    "two-pointers": 39
   },
   "weakTopics": [
     "dynamic-programming",
@@ -428,7 +448,6 @@
     "binary-search",
     "sliding-window",
     "backtracking",
-    "greedy",
     "heap",
     "trie",
     "segment-tree",
