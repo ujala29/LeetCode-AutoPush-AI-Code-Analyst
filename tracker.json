@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 17,
+    "Easy": 18,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-18T09:24:34.515Z",
+  "lastUpdated": "2026-07-18T09:41:54.094Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -333,22 +333,41 @@
       "title": "Backspace String Compare"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-18",
-      "slug": "reverse-only-letters",
-      "title": "Reverse Only Letters",
       "difficulty": "Easy",
+      "essence": "Reverse English letters in a string while keeping non-letters in place",
+      "path": "2026/07/2026-07-18_reverse-only-letters",
       "patterns": [
         "Two Pointers",
         "String Manipulation"
       ],
+      "slug": "reverse-only-letters",
       "tags": [
         "Two Pointers",
         "String"
       ],
-      "essence": "Reverse English letters in a string while keeping non-letters in place",
-      "approach": "Two Pointers",
       "time_complexity": "O(n) — where n is the length of the string, because we potentially visit each character once",
-      "path": "2026/07/2026-07-18_reverse-only-letters"
+      "title": "Reverse Only Letters"
+    },
+    {
+      "date": "2026-07-18",
+      "slug": "sort-array-by-parity-ii",
+      "title": "Sort Array By Parity II",
+      "difficulty": "Easy",
+      "patterns": [
+        "In-place modification",
+        "Two Pointers"
+      ],
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Sorting"
+      ],
+      "essence": "Swap odd numbers at even indices with even numbers at odd indices",
+      "approach": "Two Pointers",
+      "time_complexity": "O(n) — where n is the number of elements in the input array, because we are potentially scanning the entire array once",
+      "path": "2026/07/2026-07-18_sort-array-by-parity-ii"
     }
   ],
   "streak": {
@@ -357,7 +376,7 @@
     "last_date": "2026-07-18"
   },
   "topics": {
-    "array": 7,
+    "array": 8,
     "array-manipulation": 2,
     "array-traversal": 1,
     "binary-search": 2,
@@ -366,7 +385,7 @@
     "dynamic-programming": 1,
     "greedy": 2,
     "hash-table": 4,
-    "in-place-modification": 3,
+    "in-place-modification": 4,
     "math": 3,
     "matrix": 1,
     "matrix-operations": 1,
@@ -375,12 +394,12 @@
     "set": 1,
     "simulation": 3,
     "sliding-window": 1,
-    "sorting": 5,
+    "sorting": 6,
     "stack": 2,
     "string": 10,
     "string-manipulation": 4,
     "string-matching": 2,
-    "two-pointers": 33
+    "two-pointers": 35
   },
   "weakTopics": [
     "dynamic-programming",
