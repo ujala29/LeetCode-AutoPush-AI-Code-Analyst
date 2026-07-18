@@ -3,14 +3,15 @@
 Auto-generated dashboard from your LeetCode solving journey.
 
 ## Stats
-- **Total Solved**: 20
+- **Total Solved**: 21
 - **Current Streak**: 2 days 🔥
 - **Best Streak**: 2 days
-- **Difficulty Breakdown**: Easy: 19, Medium: 1, Hard: 0
+- **Difficulty Breakdown**: Easy: 20, Medium: 1, Hard: 0
 
 ## Recent Solves
 | Date | Problem | Difficulty | Approach |
 |------|---------|------------|----------|
+| 2026-07-18 | [DI String Match](https://leetcode.com/problems/di-string-match) | Easy | Two Pointers |
 | 2026-07-18 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name) | Easy | Two Pointers |
 | 2026-07-18 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | Easy | Two Pointers |
 | 2026-07-18 | [Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters) | Easy | Two Pointers |
@@ -20,4 +21,3 @@ Auto-generated dashboard from your LeetCode solving journey.
 | 2026-07-17 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii) | Easy | Two Pointers |
 | 2026-07-17 | [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings) | Easy | Two Pointers |
 | 2026-07-17 | [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity) | Easy | Two Pointers |
-| 2026-07-17 | [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | Easy | Two Pointers |
