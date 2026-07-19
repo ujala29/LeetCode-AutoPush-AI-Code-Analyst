@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 21,
+    "Easy": 22,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-18T15:15:04.488Z",
+  "lastUpdated": "2026-07-19T12:15:01.563Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -408,32 +408,50 @@
       "title": "DI String Match"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-18",
-      "slug": "squares-of-a-sorted-array",
-      "title": "Squares of a Sorted Array",
       "difficulty": "Easy",
+      "essence": "Sort squares of numbers in non-decreasing order using two pointers",
+      "path": "2026/07/2026-07-18_squares-of-a-sorted-array",
       "patterns": [
         "Two Pointers",
         "Sorting"
       ],
+      "slug": "squares-of-a-sorted-array",
       "tags": [
         "Array",
         "Two Pointers",
         "Sorting"
       ],
-      "essence": "Sort squares of numbers in non-decreasing order using two pointers",
-      "approach": "Two Pointers",
       "time_complexity": "O(n) — where n is the number of elements in the input array, because we are scanning the array once",
-      "path": "2026/07/2026-07-18_squares-of-a-sorted-array"
+      "title": "Squares of a Sorted Array"
+    },
+    {
+      "date": "2026-07-19",
+      "slug": "duplicate-zeros",
+      "title": "Duplicate Zeros",
+      "difficulty": "Easy",
+      "patterns": [
+        "In-place modification",
+        "Two Pointers"
+      ],
+      "tags": [
+        "Array",
+        "Two Pointers"
+      ],
+      "essence": "Duplicate zeros in array by shifting elements to the right",
+      "approach": "Two Pointers",
+      "time_complexity": "O(n) — where n is the number of elements in the array, as we only traverse the array once",
+      "path": "2026/07/2026-07-19_duplicate-zeros"
     }
   ],
   "streak": {
-    "best": 2,
-    "current": 2,
-    "last_date": "2026-07-18"
+    "best": 3,
+    "current": 3,
+    "last_date": "2026-07-19"
   },
   "topics": {
-    "array": 10,
+    "array": 11,
     "array-manipulation": 2,
     "array-traversal": 1,
     "binary-search": 2,
@@ -442,7 +460,7 @@
     "dynamic-programming": 1,
     "greedy": 4,
     "hash-table": 4,
-    "in-place-modification": 4,
+    "in-place-modification": 5,
     "math": 3,
     "matrix": 1,
     "matrix-operations": 1,
@@ -456,7 +474,7 @@
     "string": 12,
     "string-manipulation": 5,
     "string-matching": 2,
-    "two-pointers": 41
+    "two-pointers": 43
   },
   "weakTopics": [
     "dynamic-programming",
