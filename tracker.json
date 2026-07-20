@@ -1,10 +1,10 @@
 {
   "difficulty": {
-    "Easy": 22,
+    "Easy": 23,
     "Hard": 0,
     "Medium": 1
   },
-  "lastUpdated": "2026-07-19T12:15:01.563Z",
+  "lastUpdated": "2026-07-20T18:22:05.914Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -427,28 +427,46 @@
       "title": "Squares of a Sorted Array"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-19",
-      "slug": "duplicate-zeros",
-      "title": "Duplicate Zeros",
       "difficulty": "Easy",
+      "essence": "Duplicate zeros in array by shifting elements to the right",
+      "path": "2026/07/2026-07-19_duplicate-zeros",
       "patterns": [
         "In-place modification",
         "Two Pointers"
       ],
+      "slug": "duplicate-zeros",
       "tags": [
         "Array",
         "Two Pointers"
       ],
-      "essence": "Duplicate zeros in array by shifting elements to the right",
-      "approach": "Two Pointers",
       "time_complexity": "O(n) — where n is the number of elements in the array, as we only traverse the array once",
-      "path": "2026/07/2026-07-19_duplicate-zeros"
+      "title": "Duplicate Zeros"
+    },
+    {
+      "date": "2026-07-20",
+      "slug": "remove-palindromic-subsequences",
+      "title": "Remove Palindromic Subsequences",
+      "difficulty": "Easy",
+      "patterns": [
+        "Two Pointers",
+        "String Manipulation"
+      ],
+      "tags": [
+        "Two Pointers",
+        "String"
+      ],
+      "essence": "Determine if the input string is a palindrome to decide the minimum steps to remove all characters",
+      "approach": "Two Pointers",
+      "time_complexity": "O(n) — where n is the length of the string, as we potentially traverse the entire string once",
+      "path": "2026/07/2026-07-20_remove-palindromic-subsequences"
     }
   ],
   "streak": {
-    "best": 3,
-    "current": 3,
-    "last_date": "2026-07-19"
+    "best": 4,
+    "current": 4,
+    "last_date": "2026-07-20"
   },
   "topics": {
     "array": 11,
@@ -471,10 +489,10 @@
     "sliding-window": 1,
     "sorting": 8,
     "stack": 2,
-    "string": 12,
-    "string-manipulation": 5,
+    "string": 13,
+    "string-manipulation": 6,
     "string-matching": 2,
-    "two-pointers": 43
+    "two-pointers": 45
   },
   "weakTopics": [
     "dynamic-programming",
