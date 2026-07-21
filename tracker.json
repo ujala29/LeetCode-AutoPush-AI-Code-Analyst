@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 23,
     "Hard": 0,
-    "Medium": 1
+    "Medium": 2
   },
-  "lastUpdated": "2026-07-20T18:22:05.914Z",
+  "lastUpdated": "2026-07-21T17:49:23.916Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -445,28 +445,48 @@
       "title": "Duplicate Zeros"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-20",
-      "slug": "remove-palindromic-subsequences",
-      "title": "Remove Palindromic Subsequences",
       "difficulty": "Easy",
+      "essence": "Determine if the input string is a palindrome to decide the minimum steps to remove all characters",
+      "path": "2026/07/2026-07-20_remove-palindromic-subsequences",
       "patterns": [
         "Two Pointers",
         "String Manipulation"
       ],
+      "slug": "remove-palindromic-subsequences",
       "tags": [
         "Two Pointers",
         "String"
       ],
-      "essence": "Determine if the input string is a palindrome to decide the minimum steps to remove all characters",
-      "approach": "Two Pointers",
       "time_complexity": "O(n) — where n is the length of the string, as we potentially traverse the entire string once",
-      "path": "2026/07/2026-07-20_remove-palindromic-subsequences"
+      "title": "Remove Palindromic Subsequences"
+    },
+    {
+      "date": "2026-07-21",
+      "slug": "reorder-list",
+      "title": "Reorder List",
+      "difficulty": "Medium",
+      "patterns": [
+        "Two Pointers",
+        "Linked List Reversal"
+      ],
+      "tags": [
+        "Linked List",
+        "Two Pointers",
+        "Stack",
+        "Recursion"
+      ],
+      "essence": "Reorder a singly linked list by finding the middle, reversing the second half, and then merging the two halves",
+      "approach": "Two Pointers and Linked List Reversal",
+      "time_complexity": "O(n) — where n is the number of nodes in the linked list, as we are traversing the list three times",
+      "path": "2026/07/2026-07-21_reorder-list"
     }
   ],
   "streak": {
-    "best": 4,
-    "current": 4,
-    "last_date": "2026-07-20"
+    "best": 5,
+    "current": 5,
+    "last_date": "2026-07-21"
   },
   "topics": {
     "array": 11,
@@ -488,11 +508,14 @@
     "simulation": 3,
     "sliding-window": 1,
     "sorting": 8,
-    "stack": 2,
+    "stack": 3,
     "string": 13,
     "string-manipulation": 6,
     "string-matching": 2,
-    "two-pointers": 45
+    "two-pointers": 47,
+    "linked-list": 1,
+    "recursion": 1,
+    "linked-list-reversal": 1
   },
   "weakTopics": [
     "dynamic-programming",
