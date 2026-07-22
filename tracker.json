@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 23,
     "Hard": 0,
-    "Medium": 2
+    "Medium": 3
   },
-  "lastUpdated": "2026-07-21T17:49:23.916Z",
+  "lastUpdated": "2026-07-22T16:40:08.993Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -463,30 +463,48 @@
       "title": "Remove Palindromic Subsequences"
     },
     {
+      "approach": "Two Pointers and Linked List Reversal",
       "date": "2026-07-21",
-      "slug": "reorder-list",
-      "title": "Reorder List",
       "difficulty": "Medium",
+      "essence": "Reorder a singly linked list by finding the middle, reversing the second half, and then merging the two halves",
+      "path": "2026/07/2026-07-21_reorder-list",
       "patterns": [
         "Two Pointers",
         "Linked List Reversal"
       ],
+      "slug": "reorder-list",
       "tags": [
         "Linked List",
         "Two Pointers",
         "Stack",
         "Recursion"
       ],
-      "essence": "Reorder a singly linked list by finding the middle, reversing the second half, and then merging the two halves",
-      "approach": "Two Pointers and Linked List Reversal",
       "time_complexity": "O(n) — where n is the number of nodes in the linked list, as we are traversing the list three times",
-      "path": "2026/07/2026-07-21_reorder-list"
+      "title": "Reorder List"
+    },
+    {
+      "date": "2026-07-22",
+      "slug": "remove-duplicates-from-sorted-list-ii",
+      "title": "Remove Duplicates from Sorted List II",
+      "difficulty": "Medium",
+      "patterns": [
+        "Two Pointers",
+        "Linked List"
+      ],
+      "tags": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "essence": "Remove duplicates from a sorted linked list by skipping nodes with duplicate values",
+      "approach": "Two Pointers",
+      "time_complexity": "O(n) — where n is the number of nodes in the linked list, because we only traverse the list once",
+      "path": "2026/07/2026-07-22_remove-duplicates-from-sorted-list-ii"
     }
   ],
   "streak": {
-    "best": 5,
-    "current": 5,
-    "last_date": "2026-07-21"
+    "best": 6,
+    "current": 6,
+    "last_date": "2026-07-22"
   },
   "topics": {
     "array": 11,
@@ -499,11 +517,14 @@
     "greedy": 4,
     "hash-table": 4,
     "in-place-modification": 5,
+    "linked-list": 3,
+    "linked-list-reversal": 1,
     "math": 3,
     "matrix": 1,
     "matrix-operations": 1,
     "modular-arithmetic": 1,
     "overflow-handling": 1,
+    "recursion": 1,
     "set": 1,
     "simulation": 3,
     "sliding-window": 1,
@@ -512,10 +533,7 @@
     "string": 13,
     "string-manipulation": 6,
     "string-matching": 2,
-    "two-pointers": 47,
-    "linked-list": 1,
-    "recursion": 1,
-    "linked-list-reversal": 1
+    "two-pointers": 49
   },
   "weakTopics": [
     "dynamic-programming",
