@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 23,
     "Hard": 0,
-    "Medium": 3
+    "Medium": 4
   },
-  "lastUpdated": "2026-07-22T16:40:08.993Z",
+  "lastUpdated": "2026-07-22T16:40:58.897Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -483,22 +483,40 @@
       "title": "Reorder List"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-22",
-      "slug": "remove-duplicates-from-sorted-list-ii",
-      "title": "Remove Duplicates from Sorted List II",
       "difficulty": "Medium",
+      "essence": "Remove duplicates from a sorted linked list by skipping nodes with duplicate values",
+      "path": "2026/07/2026-07-22_remove-duplicates-from-sorted-list-ii",
       "patterns": [
         "Two Pointers",
         "Linked List"
+      ],
+      "slug": "remove-duplicates-from-sorted-list-ii",
+      "tags": [
+        "Linked List",
+        "Two Pointers"
+      ],
+      "time_complexity": "O(n) — where n is the number of nodes in the linked list, because we only traverse the list once",
+      "title": "Remove Duplicates from Sorted List II"
+    },
+    {
+      "date": "2026-07-22",
+      "slug": "partition-list",
+      "title": "Partition List",
+      "difficulty": "Medium",
+      "patterns": [
+        "Linked List",
+        "Two Pointers"
       ],
       "tags": [
         "Linked List",
         "Two Pointers"
       ],
-      "essence": "Remove duplicates from a sorted linked list by skipping nodes with duplicate values",
+      "essence": "Partition linked list around a given value while preserving relative order",
       "approach": "Two Pointers",
-      "time_complexity": "O(n) — where n is the number of nodes in the linked list, because we only traverse the list once",
-      "path": "2026/07/2026-07-22_remove-duplicates-from-sorted-list-ii"
+      "time_complexity": "O(n) — where n is the number of nodes in the linked list, as we only traverse the list once",
+      "path": "2026/07/2026-07-22_partition-list"
     }
   ],
   "streak": {
@@ -517,7 +535,7 @@
     "greedy": 4,
     "hash-table": 4,
     "in-place-modification": 5,
-    "linked-list": 3,
+    "linked-list": 5,
     "linked-list-reversal": 1,
     "math": 3,
     "matrix": 1,
@@ -533,7 +551,7 @@
     "string": 13,
     "string-manipulation": 6,
     "string-matching": 2,
-    "two-pointers": 49
+    "two-pointers": 51
   },
   "weakTopics": [
     "dynamic-programming",
