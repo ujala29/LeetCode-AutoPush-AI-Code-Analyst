@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 23,
     "Hard": 0,
-    "Medium": 4
+    "Medium": 5
   },
-  "lastUpdated": "2026-07-22T16:40:58.897Z",
+  "lastUpdated": "2026-07-23T16:57:42.029Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -501,35 +501,53 @@
       "title": "Remove Duplicates from Sorted List II"
     },
     {
+      "approach": "Two Pointers",
       "date": "2026-07-22",
-      "slug": "partition-list",
-      "title": "Partition List",
       "difficulty": "Medium",
+      "essence": "Partition linked list around a given value while preserving relative order",
+      "path": "2026/07/2026-07-22_partition-list",
       "patterns": [
         "Linked List",
         "Two Pointers"
       ],
+      "slug": "partition-list",
       "tags": [
         "Linked List",
         "Two Pointers"
       ],
-      "essence": "Partition linked list around a given value while preserving relative order",
-      "approach": "Two Pointers",
       "time_complexity": "O(n) — where n is the number of nodes in the linked list, as we only traverse the list once",
-      "path": "2026/07/2026-07-22_partition-list"
+      "title": "Partition List"
+    },
+    {
+      "date": "2026-07-23",
+      "slug": "divide-two-integers",
+      "title": "Divide Two Integers",
+      "difficulty": "Medium",
+      "patterns": [
+        "Bit Manipulation",
+        "Binary Search"
+      ],
+      "tags": [
+        "Math",
+        "Bit Manipulation"
+      ],
+      "essence": "Divide two integers without using multiplication, division, and mod operator by utilizing bit shifting",
+      "approach": "Bit Manipulation",
+      "time_complexity": "O(log N) — where N is the absolute value of the dividend, because we are essentially performing a binary search to find the largest multiple of the divisor that is less than or equal to the dividend",
+      "path": "2026/07/2026-07-23_divide-two-integers"
     }
   ],
   "streak": {
-    "best": 6,
-    "current": 6,
-    "last_date": "2026-07-22"
+    "best": 7,
+    "current": 7,
+    "last_date": "2026-07-23"
   },
   "topics": {
     "array": 11,
     "array-manipulation": 2,
     "array-traversal": 1,
-    "binary-search": 2,
-    "bit-manipulation": 1,
+    "binary-search": 3,
+    "bit-manipulation": 3,
     "cycle-detection": 1,
     "dynamic-programming": 1,
     "greedy": 4,
@@ -537,7 +555,7 @@
     "in-place-modification": 5,
     "linked-list": 5,
     "linked-list-reversal": 1,
-    "math": 3,
+    "math": 4,
     "matrix": 1,
     "matrix-operations": 1,
     "modular-arithmetic": 1,
@@ -559,14 +577,12 @@
     "bfs",
     "dfs",
     "trees",
-    "binary-search",
     "sliding-window",
     "backtracking",
     "heap",
     "trie",
     "segment-tree",
     "monotonic-stack",
-    "union-find",
-    "bit-manipulation"
+    "union-find"
   ]
 }
