@@ -3,14 +3,15 @@
 Auto-generated dashboard from your LeetCode solving journey.
 
 ## Stats
-- **Total Solved**: 28
-- **Current Streak**: 7 days 🔥
+- **Total Solved**: 29
+- **Current Streak**: 1 days 🔥
 - **Best Streak**: 7 days
-- **Difficulty Breakdown**: Easy: 23, Medium: 5, Hard: 0
+- **Difficulty Breakdown**: Easy: 23, Medium: 6, Hard: 0
 
 ## Recent Solves
 | Date | Problem | Difficulty | Approach |
 |------|---------|------------|----------|
+| 2026-08-01 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) | Medium | Sliding Window with Hash Set |
 | 2026-07-23 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | Medium | Bit Manipulation |
 | 2026-07-22 | [Partition List](https://leetcode.com/problems/partition-list) | Medium | Two Pointers |
 | 2026-07-22 | [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | Medium | Two Pointers |
@@ -20,4 +21,3 @@ Auto-generated dashboard from your LeetCode solving journey.
 | 2026-07-18 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | Easy | Two Pointers |
 | 2026-07-18 | [DI String Match](https://leetcode.com/problems/di-string-match) | Easy | Two Pointers |
 | 2026-07-18 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name) | Easy | Two Pointers |
-| 2026-07-18 | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii) | Easy | Two Pointers |
