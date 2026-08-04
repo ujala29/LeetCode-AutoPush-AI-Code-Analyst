@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 23,
     "Hard": 0,
-    "Medium": 6
+    "Medium": 7
   },
-  "lastUpdated": "2026-08-01T16:08:36.145Z",
+  "lastUpdated": "2026-08-04T05:54:44.412Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -537,39 +537,58 @@
       "title": "Divide Two Integers"
     },
     {
+      "approach": "Sliding Window with Hash Set",
       "date": "2026-08-01",
-      "slug": "maximum-sum-of-distinct-subarrays-with-length-k",
-      "title": "Maximum Sum of Distinct Subarrays With Length K",
       "difficulty": "Medium",
+      "essence": "Use a sliding window with a hash set to efficiently track distinct subarrays of length k and calculate their sums",
+      "path": "2026/08/2026-08-01_maximum-sum-of-distinct-subarrays-with-length-k",
       "patterns": [
         "Sliding Window",
         "Hash Set"
       ],
+      "slug": "maximum-sum-of-distinct-subarrays-with-length-k",
       "tags": [
         "Array",
         "Hash Table",
         "Sliding Window"
       ],
-      "essence": "Use a sliding window with a hash set to efficiently track distinct subarrays of length k and calculate their sums",
-      "approach": "Sliding Window with Hash Set",
       "time_complexity": "O(n) — where n is the number of elements in the input array, because each element is visited at most twice",
-      "path": "2026/08/2026-08-01_maximum-sum-of-distinct-subarrays-with-length-k"
+      "title": "Maximum Sum of Distinct Subarrays With Length K"
+    },
+    {
+      "date": "2026-08-04",
+      "slug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+      "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
+      "difficulty": "Medium",
+      "patterns": [
+        "Sliding Window",
+        "Array Traversal"
+      ],
+      "tags": [
+        "Array",
+        "Sliding Window"
+      ],
+      "essence": "Count sub-arrays of size k with average greater than or equal to threshold using a sliding window approach",
+      "approach": "Sliding Window",
+      "time_complexity": "O(n) — where n is the number of elements in the array, because we make a single pass through the array",
+      "path": "2026/08/2026-08-04_number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold"
     }
   ],
   "streak": {
     "best": 7,
     "current": 1,
-    "last_date": "2026-08-01"
+    "last_date": "2026-08-04"
   },
   "topics": {
-    "array": 12,
+    "array": 13,
     "array-manipulation": 2,
-    "array-traversal": 1,
+    "array-traversal": 2,
     "binary-search": 3,
     "bit-manipulation": 3,
     "cycle-detection": 1,
     "dynamic-programming": 1,
     "greedy": 4,
+    "hash-set": 1,
     "hash-table": 5,
     "in-place-modification": 5,
     "linked-list": 5,
@@ -582,14 +601,13 @@
     "recursion": 1,
     "set": 1,
     "simulation": 3,
-    "sliding-window": 3,
+    "sliding-window": 5,
     "sorting": 8,
     "stack": 3,
     "string": 13,
     "string-manipulation": 6,
     "string-matching": 2,
-    "two-pointers": 51,
-    "hash-set": 1
+    "two-pointers": 51
   },
   "weakTopics": [
     "dynamic-programming",
