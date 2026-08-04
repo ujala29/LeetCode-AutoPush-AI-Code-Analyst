@@ -3,14 +3,15 @@
 Auto-generated dashboard from your LeetCode solving journey.
 
 ## Stats
-- **Total Solved**: 30
+- **Total Solved**: 31
 - **Current Streak**: 1 days 🔥
 - **Best Streak**: 7 days
-- **Difficulty Breakdown**: Easy: 23, Medium: 7, Hard: 0
+- **Difficulty Breakdown**: Easy: 23, Medium: 8, Hard: 0
 
 ## Recent Solves
 | Date | Problem | Difficulty | Approach |
 |------|---------|------------|----------|
+| 2026-08-04 | [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | Medium | Sliding Window |
 | 2026-08-04 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) | Medium | Sliding Window |
 | 2026-08-01 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) | Medium | Sliding Window with Hash Set |
 | 2026-07-23 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers) | Medium | Bit Manipulation |
@@ -20,4 +21,3 @@ Auto-generated dashboard from your LeetCode solving journey.
 | 2026-07-20 | [Remove Palindromic Subsequences](https://leetcode.com/problems/remove-palindromic-subsequences) | Easy | Two Pointers |
 | 2026-07-19 | [Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros) | Easy | Two Pointers |
 | 2026-07-18 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array) | Easy | Two Pointers |
-| 2026-07-18 | [DI String Match](https://leetcode.com/problems/di-string-match) | Easy | Two Pointers |
