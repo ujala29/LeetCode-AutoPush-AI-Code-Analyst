@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 23,
     "Hard": 0,
-    "Medium": 7
+    "Medium": 8
   },
-  "lastUpdated": "2026-08-04T05:54:44.412Z",
+  "lastUpdated": "2026-08-04T05:58:17.364Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -556,22 +556,40 @@
       "title": "Maximum Sum of Distinct Subarrays With Length K"
     },
     {
+      "approach": "Sliding Window",
       "date": "2026-08-04",
-      "slug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
-      "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
       "difficulty": "Medium",
+      "essence": "Count sub-arrays of size k with average greater than or equal to threshold using a sliding window approach",
+      "path": "2026/08/2026-08-04_number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
       "patterns": [
         "Sliding Window",
         "Array Traversal"
       ],
+      "slug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
       "tags": [
         "Array",
         "Sliding Window"
       ],
-      "essence": "Count sub-arrays of size k with average greater than or equal to threshold using a sliding window approach",
-      "approach": "Sliding Window",
       "time_complexity": "O(n) — where n is the number of elements in the array, because we make a single pass through the array",
-      "path": "2026/08/2026-08-04_number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold"
+      "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold"
+    },
+    {
+      "date": "2026-08-04",
+      "slug": "maximum-number-of-vowels-in-a-substring-of-given-length",
+      "title": "Maximum Number of Vowels in a Substring of Given Length",
+      "difficulty": "Medium",
+      "patterns": [
+        "Sliding Window",
+        "String Manipulation"
+      ],
+      "tags": [
+        "String",
+        "Sliding Window"
+      ],
+      "essence": "Use a sliding window to track the maximum number of vowels in a substring of given length",
+      "approach": "Sliding Window",
+      "time_complexity": "O(n) — where n is the length of the string, because we are scanning the string once",
+      "path": "2026/08/2026-08-04_maximum-number-of-vowels-in-a-substring-of-given-length"
     }
   ],
   "streak": {
@@ -601,11 +619,11 @@
     "recursion": 1,
     "set": 1,
     "simulation": 3,
-    "sliding-window": 5,
+    "sliding-window": 7,
     "sorting": 8,
     "stack": 3,
-    "string": 13,
-    "string-manipulation": 6,
+    "string": 14,
+    "string-manipulation": 7,
     "string-matching": 2,
     "two-pointers": 51
   },
