@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 23,
     "Hard": 0,
-    "Medium": 9
+    "Medium": 10
   },
-  "lastUpdated": "2026-08-04T07:21:48.387Z",
+  "lastUpdated": "2026-08-04T07:42:49.468Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -592,23 +592,43 @@
       "title": "Maximum Number of Vowels in a Substring of Given Length"
     },
     {
+      "approach": "Sliding Window with Hash Table",
       "date": "2026-08-04",
-      "slug": "longest-substring-without-repeating-characters",
-      "title": "Longest Substring Without Repeating Characters",
       "difficulty": "Medium",
+      "essence": "Use a sliding window to track the longest substring without repeating characters",
+      "path": "2026/08/2026-08-04_longest-substring-without-repeating-characters",
       "patterns": [
         "Hash Table",
         "Sliding Window"
       ],
+      "slug": "longest-substring-without-repeating-characters",
       "tags": [
         "Hash Table",
         "String",
         "Sliding Window"
       ],
-      "essence": "Use a sliding window to track the longest substring without repeating characters",
-      "approach": "Sliding Window with Hash Table",
       "time_complexity": "O(n) — where n is the length of the string, because each character is visited at most twice",
-      "path": "2026/08/2026-08-04_longest-substring-without-repeating-characters"
+      "title": "Longest Substring Without Repeating Characters"
+    },
+    {
+      "date": "2026-08-04",
+      "slug": "max-consecutive-ones-iii",
+      "title": "Max Consecutive Ones III",
+      "difficulty": "Medium",
+      "patterns": [
+        "Sliding Window",
+        "Two Pointers"
+      ],
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Sliding Window",
+        "Prefix Sum"
+      ],
+      "essence": "Maintain a window with at most k zeros to find the maximum consecutive ones",
+      "approach": "Sliding Window",
+      "time_complexity": "O(n) — where n is the length of the input array, as each element is visited at most twice",
+      "path": "2026/08/2026-08-04_max-consecutive-ones-iii"
     }
   ],
   "streak": {
@@ -617,10 +637,10 @@
     "last_date": "2026-08-04"
   },
   "topics": {
-    "array": 13,
+    "array": 14,
     "array-manipulation": 2,
     "array-traversal": 2,
-    "binary-search": 3,
+    "binary-search": 4,
     "bit-manipulation": 3,
     "cycle-detection": 1,
     "dynamic-programming": 1,
@@ -638,13 +658,14 @@
     "recursion": 1,
     "set": 1,
     "simulation": 3,
-    "sliding-window": 9,
+    "sliding-window": 11,
     "sorting": 8,
     "stack": 3,
     "string": 15,
     "string-manipulation": 7,
     "string-matching": 2,
-    "two-pointers": 51
+    "two-pointers": 52,
+    "prefix-sum": 1
   },
   "weakTopics": [
     "dynamic-programming",
