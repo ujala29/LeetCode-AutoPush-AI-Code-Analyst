@@ -1,0 +1,20 @@
+from typing import List
+
+class Solution:
+    def totalFruit(self, fruits: List[int]) -> int:
+        freq = {}
+        i = 0
+        maxcount = 0
+
+        for j in range(len(fruits)):
+            freq[fruits[j]] = freq.get(fruits[j], 0) + 1
+
+            while len(freq) > 2:
+                freq[fruits[i]] -= 1
+                if freq[fruits[i]] == 0:
+                    del freq[fruits[i]]
+                i += 1
+
+            maxcount = max(maxcount, j - i + 1)
+
+        return maxcount
