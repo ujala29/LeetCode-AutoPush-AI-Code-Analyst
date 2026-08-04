@@ -2,9 +2,9 @@
   "difficulty": {
     "Easy": 23,
     "Hard": 0,
-    "Medium": 10
+    "Medium": 11
   },
-  "lastUpdated": "2026-08-04T07:42:49.468Z",
+  "lastUpdated": "2026-08-04T07:58:10.836Z",
   "solves": [
     {
       "approach": "Math/Modular Arithmetic",
@@ -611,24 +611,43 @@
       "title": "Longest Substring Without Repeating Characters"
     },
     {
+      "approach": "Sliding Window",
       "date": "2026-08-04",
-      "slug": "max-consecutive-ones-iii",
-      "title": "Max Consecutive Ones III",
       "difficulty": "Medium",
+      "essence": "Maintain a window with at most k zeros to find the maximum consecutive ones",
+      "path": "2026/08/2026-08-04_max-consecutive-ones-iii",
       "patterns": [
         "Sliding Window",
         "Two Pointers"
       ],
+      "slug": "max-consecutive-ones-iii",
       "tags": [
         "Array",
         "Binary Search",
         "Sliding Window",
         "Prefix Sum"
       ],
-      "essence": "Maintain a window with at most k zeros to find the maximum consecutive ones",
-      "approach": "Sliding Window",
       "time_complexity": "O(n) — where n is the length of the input array, as each element is visited at most twice",
-      "path": "2026/08/2026-08-04_max-consecutive-ones-iii"
+      "title": "Max Consecutive Ones III"
+    },
+    {
+      "date": "2026-08-04",
+      "slug": "fruit-into-baskets",
+      "title": "Fruit Into Baskets",
+      "difficulty": "Medium",
+      "patterns": [
+        "Sliding Window",
+        "Hash Table"
+      ],
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sliding Window"
+      ],
+      "essence": "Use a sliding window to track the maximum number of fruits that can be collected with two baskets",
+      "approach": "Sliding Window",
+      "time_complexity": "O(n) — where n is the number of fruits, because each fruit is visited at most twice",
+      "path": "2026/08/2026-08-04_fruit-into-baskets"
     }
   ],
   "streak": {
@@ -637,7 +656,7 @@
     "last_date": "2026-08-04"
   },
   "topics": {
-    "array": 14,
+    "array": 15,
     "array-manipulation": 2,
     "array-traversal": 2,
     "binary-search": 4,
@@ -646,7 +665,7 @@
     "dynamic-programming": 1,
     "greedy": 4,
     "hash-set": 1,
-    "hash-table": 7,
+    "hash-table": 9,
     "in-place-modification": 5,
     "linked-list": 5,
     "linked-list-reversal": 1,
@@ -655,17 +674,17 @@
     "matrix-operations": 1,
     "modular-arithmetic": 1,
     "overflow-handling": 1,
+    "prefix-sum": 1,
     "recursion": 1,
     "set": 1,
     "simulation": 3,
-    "sliding-window": 11,
+    "sliding-window": 13,
     "sorting": 8,
     "stack": 3,
     "string": 15,
     "string-manipulation": 7,
     "string-matching": 2,
-    "two-pointers": 52,
-    "prefix-sum": 1
+    "two-pointers": 52
   },
   "weakTopics": [
     "dynamic-programming",
