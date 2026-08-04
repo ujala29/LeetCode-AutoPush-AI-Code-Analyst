@@ -1,0 +1,21 @@
+class Solution:
+    def numOfSubarrays(self, arr: List[int], k: int, threshold: int) -> int:
+       count = sum = i = j = 0
+       avg=0
+
+       while j<len(arr):
+            sum+=arr[j]
+
+            if j-i+1==k:
+                avg=sum/k
+                if avg>=threshold:
+                    count+=1
+                sum-=arr[i]
+                i+=1
+
+            j+=1
+       return count
+
+
+
+        
