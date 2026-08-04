@@ -1,0 +1,29 @@
+class Solution:
+    def isvowel(self,c) ->bool:
+         
+        if c=="a" or c=="e" or c=="i" or c=="o" or c=="u":
+             return True
+        return False 
+    def maxVowels(self, s: str, k: int) -> int:
+
+        maxcount=0
+        count=0
+        i=j=0
+        while j<len(s):
+            if self.isvowel(s[j]):
+                count+=1
+            
+            if j-i+1==k:
+                maxcount=max(count,maxcount)
+                if self.isvowel(s[i]):
+                    count-=1
+                i+=1
+            j+=1
+        
+        return maxcount
+
+            
+
+        
+
+        
